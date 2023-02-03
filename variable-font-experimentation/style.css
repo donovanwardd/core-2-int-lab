@@ -13,16 +13,14 @@ h1:hover{
 }
 
 h2{
-   font-family: "stinger-variable",sans-serif;
-   font-variation-settings: 'wght' 800, 'wdth' 120;
-   font-size: 300px;
-   font-weight: normal;
-   margin-top: 50;
+    font-family: "mozaic-geo-variable", sans-serif;
+font-style: normal;
+font-variation-settings: "wght" 400;
    color: cornflowerblue;
    transition: all 1000ms ease-in-out;
 }
 
 h2:hover{
-   font-variation-settings: 'wght' 800, 'wdth' 120;
+   font-variation-settings: 'wght' 1200;
    color: orange;
 }
