@@ -21,3 +21,8 @@ h2{
    color: green;
    transition: all 1000ms ease-in-out;
 }
+
+h2:hover{
+   font-variation-settings: 'wght' 800, 'wdth' 120;
+   color: orange;
+}
