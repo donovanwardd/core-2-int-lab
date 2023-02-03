@@ -65,6 +65,10 @@ video {
   vertical-align: middle;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 /*
  * Remove default fieldset styles.
  */
@@ -86,6 +90,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+main {
+  background: white;
+  width: 99vw;
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  color: rgb(255, 78, 78);
+  grid-template-rows: minmax(300px, max-content);
+  grid-auto-rows: 150px;
+  gap: 1rem;
+}
+
+section{
+  background: pink;
+  padding: 1rem;
+}
+
 
 /* ==========================================================================
    Helper classes
