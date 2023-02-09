@@ -1,0 +1,79 @@
+.letter1{
+    width: 150px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.letter2{
+    width: 150px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.letter3{
+    width: 150px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.letter4{
+    width: 150px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.letter5{
+    width: 150px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.block{
+    background: cornflowerblue;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.no-block{
+ background: cornflowerblue;
+ border-radius: 50% 50% 50% 50%;
+ opacity: 10%;
+}
+
+.movefor2{
+    display: flex;
+    margin-top: -250px;
+    margin-left: 200px;
+}
+
+.movefor3{
+    display: flex;
+    margin-top: -250px;
+    margin-left: 400px;
+}
+
+.movefor4{
+    display: flex;
+    margin-top: -250px;
+    margin-left: 600px;
+}
+
+.movefor5{
+    display: flex;
+    margin-top: -250px;
+    margin-left: 800px;
+}
