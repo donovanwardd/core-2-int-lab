@@ -53,6 +53,45 @@ h1 {
     text-decoration: none;
   }
 
+  h3 {
+    color: #000;
+    font-size: 24px;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 1072px;
+    height: 200px;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+.origional-text{
+  display: flex;
+
+  margin-top: -170px;
+  line-height: 250%;
+  padding: 2em;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.5px;
+  letter-spacing: 0.035rem;
+}
+
+.arrow{
+  display: flex;
+  margin-top: -70px;
+  margin-left: 1095px;
+  font-size: 48px;
+}
+
+
+
+
+
+
+
   @media ( max-width: 380px ){
     h1 {
         color: #000;
