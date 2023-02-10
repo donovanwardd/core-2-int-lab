@@ -275,7 +275,7 @@ nav li {
 
 
 p {
-  font-family: 'Bitter', serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: var(--text-base-size);
   margin-bottom: 1 rem;
   line-height: 150%;
@@ -398,7 +398,7 @@ h6 {
 }
 
 .core-lab-serif {
-  font-family: 'Suez One', serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-weight: 900;
   line-height: 100%;
 
