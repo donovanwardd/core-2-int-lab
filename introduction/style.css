@@ -7,7 +7,7 @@
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 180px);
     grid-template-rows: repeat(1, 200px);
     grid-gap: 2rem;
     padding: 2rem;
