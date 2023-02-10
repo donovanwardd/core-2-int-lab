@@ -46,6 +46,7 @@
 .block{
     background: cornflowerblue;
     border-radius: 50% 50% 50% 50%;
+    transition: background 100ms;
 }
 
 .no-block{
@@ -76,4 +77,22 @@
     display: flex;
     margin-top: -250px;
     margin-left: 800px;
+}
+
+.block:hover{
+    animation: changecolor 600ms linear 600ms 2 alternate
+}
+
+@keyframes changecolor {
+    0%  {
+        background-color: cornflowerblue;
+        rotate: (180deg);
+    }
+    70% {
+        background-color: rgb(21, 84, 199);
+    }
+    100%{
+        background-color: red;
+        border-radius: 0 0 0 0;
+    }
 }
