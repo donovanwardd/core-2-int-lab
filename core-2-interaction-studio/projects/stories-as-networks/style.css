@@ -68,8 +68,7 @@ h1 {
 
 .origional-text{
   display: flex;
-
-  margin-top: -170px;
+  margin-top: -50px;
   line-height: 250%;
   padding: 2em;
   font-family: "neue-haas-grotesk-display", sans-serif;
@@ -84,12 +83,143 @@ h1 {
   margin-top: -70px;
   margin-left: 1095px;
   font-size: 48px;
+  text-decoration: none;
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
 
+.punct-highlight{
+  display: flex;
+  margin-top: -200px;
+  margin-left: 50px;
+  font-size: 33px;
+  font-style: bold;
+  color: black;
+  letter-spacing: 0.8rem;
+}
 
+.punct-circle-question {
+  display: inline-block;
+  color: #FFB46D;
+  border-color: #FFB46D;
+  border: 4px solid #FFB46D;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
 
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
 
+.punct-circle-exclam {
+  display: inline-block;
+  color: #a691db;
+  border-color: #a691db;
+  border: 4px solid #a691db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
+
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
+
+.punct-circle-quote {
+  display: inline-block;
+  color: #3DC1CB;
+  border-color: #3DC1CB;
+  border: 4px solid #3DC1CB;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
+
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
+
+.punct-circle-apos {
+  display: inline-block;
+  color: #7EBBD8;
+  border-color: #7EBBD8;
+  border: 4px solid #7EBBD8;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
+
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
+
+.punct-circle-period {
+  display: inline-block;
+  color: #77DD77;
+  border-color: #77DD77;
+  border: 4px solid #77DD77;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
+
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
+
+.punct-circle-comma {
+  display: inline-block;
+  color: #FF7777;
+  border-color: #FF7777;
+  border: 4px solid #FF7777;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
+
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
+
+.punct-circle-colon {
+  display: inline-block;
+  color: #FFE345;
+  border-color: #FFE345;
+  border: 4px solid #FFE345;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
+
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
+
+.punct-circle-scolon {
+  display: inline-block;
+  color: #E995BA;
+  border-color: #E995BA;
+  border: 4px solid #E995BA;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: end;
+
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+}
 
 
   @media ( max-width: 380px ){
