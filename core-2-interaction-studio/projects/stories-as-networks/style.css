@@ -78,12 +78,10 @@ h1 {
   letter-spacing: 0.035rem;
 }
 
-.arrow{
-  display: flex;
-  margin-top: -70px;
-  margin-left: 1095px;
-  font-size: 48px;
+.next-arrow{
+  font-size: 35px;
   text-decoration: none;
+  font-style: bold;
 }
 
 a:link {
@@ -94,7 +92,7 @@ a:link {
 .punct-highlight{
   display: flex;
   margin-top: -200px;
-  margin-left: 50px;
+  margin-left: 32px;
   font-size: 33px;
   font-style: bold;
   color: black;
@@ -222,47 +220,231 @@ a:link {
 }
 
 
-  @media ( max-width: 380px ){
+
+
+
+
+
+
+
+  @media ( max-width: 600px ){
     h1 {
-        color: #000;
-        font-size: 110px;
-        font-family: "neue-haas-grotesk-text", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        width: 1072px;
-        height: 221px;
-        text-align: center;
-        align-items: center;
-        flex-direction: column;
-      }
-    
-      h1:hover{
-        border: none;
-        color: rgb(86, 86, 86);
-        cursor: pointer;
-        transition: all 0.2s ease;
-      }
-    
-      .centered{
-      position: fixed;
-      top: 52%;
-      left: 50%;
-      margin-top:-30px;
-      transform: translate(-50%, -50%);
-      }
-    
-      .greyed{
-      height: 100%;
-      font-family: "neue-haas-grotesk-display", sans-serif;
-      font-weight: 400;
+      color: #000;
+      font-size: 110px;
+      font-family: "neue-haas-grotesk-text", sans-serif;
+      font-weight: 700;
       font-style: normal;
-      color: rgb(214, 214, 214);
-      flex-basis: 100%;
-      overflow-y: auto;
+      width: 1072px;
+      height: 221px;
+      text-align: center;
       align-items: center;
-      justify-content: center;
-      position: fixed;
-      top: 50%;
-      left: 71%;
-      }
+      flex-direction: column;
+    }
+    h1:hover{
+      border: none;
+      color: rgb(86, 86, 86);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+  
+    .centered{
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    margin-top:-30px;
+    transform: translate(-50%, -50%);
+    }
+  
+    .greyed{
+    height: 100%;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(214, 214, 214);
+    flex-basis: 100%;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 71%;
+    }
+  
+    h2 {
+      color: #000;
+      font-size: 40px;
+      font-family: "neue-haas-grotesk-text", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      width: 1072px;
+      height: 221px;
+      flex-direction: column;
+      text-decoration: none;
+    }
+  
+    h3 {
+      color: #000;
+      font-size: 24px;
+      font-family: "neue-haas-grotesk-text", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      width: 1072px;
+      height: 200px;
+      flex-direction: column;
+      text-decoration: none;
+      padding: 0.5rem;
+    }
+  
+  .origional-text{
+    display: flex;
+    margin-top: -50px;
+    line-height: 250%;
+    padding: 2em;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.035rem;
+  }
+  
+  .next-arrow{
+    font-size: 25.5px;
+    text-decoration: none;
+    font-style: bold;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .punct-highlight{
+    display: flex;
+    margin-top: -200px;
+    margin-left: 25px;
+    font-size: 24px;
+    font-style: bold;
+    color: black;
+    letter-spacing: 0.8rem;
+  }
+  
+  .punct-circle-question {
+    display: inline-block;
+    color: #FFB46D;
+    border-color: #FFB46D;
+    border: 3px solid #FFB46D;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
+  
+  .punct-circle-exclam {
+    display: inline-block;
+    color: #a691db;
+    border-color: #a691db;
+    border: 3px solid #a691db;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
+  
+  .punct-circle-quote {
+    display: inline-block;
+    color: #3DC1CB;
+    border-color: #3DC1CB;
+    border: 3px solid #3DC1CB;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
+  
+  .punct-circle-apos {
+    display: inline-block;
+    color: #7EBBD8;
+    border-color: #7EBBD8;
+    border: 3px solid #7EBBD8;
+    border-radius: 50%;
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
+  
+  .punct-circle-period {
+    display: inline-block;
+    color: #77DD77;
+    border-color: #77DD77;
+    border: 3px solid #77DD77;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
+  
+  .punct-circle-comma {
+    display: inline-block;
+    color: #FF7777;
+    border-color: #FF7777;
+    border: 3px solid #FF7777;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
+  
+  .punct-circle-colon {
+    display: inline-block;
+    color: #FFE345;
+    border-color: #FFE345;
+    border: 3px solid #FFE345;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
+  
+  .punct-circle-scolon {
+    display: inline-block;
+    color: #E995BA;
+    border-color: #E995BA;
+    border: 3px solid #E995BA;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: end;
+  
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 700;
+  }
   }
