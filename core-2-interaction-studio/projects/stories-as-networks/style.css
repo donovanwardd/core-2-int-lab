@@ -121,6 +121,7 @@ a:visited{
   height: 40px;
   line-height: 40px;
   text-align: end;
+  padding-left:0;
 
   font-family: "neue-haas-grotesk-text", sans-serif;
   font-weight: 700;
@@ -251,6 +252,107 @@ a:visited{
   font-size: 12px;
   letter-spacing: 0.035rem;
 }
+
+.question{
+  display: none;
+}
+
+.question-on .question{
+  display: inline;
+  font-size: 3rem;
+}
+
+.exclamation{
+  display: none;
+}
+
+.exclamation-on .exclamation{
+  display: inline;
+  font-size: 3rem;
+}
+
+.quotation{
+  display: none;
+}
+
+.quotation-on{
+  display: inline;
+  font-size: 3rem;
+}
+
+.apostrophe{
+  display: none;
+}
+
+.apostrophe-on .apostrophe{
+  display: inline;
+  font-size: 3rem;
+}
+
+.period{
+  display: none;
+}
+
+.period-on .period{
+  display:inline;
+  font-size: 3rem;
+}
+
+.comma{
+  display: none;
+}
+
+.comma-on .comma{
+  display: inline;
+  font-size: 3rem;
+}
+
+.colon{
+  display: none;
+}
+
+.colon-on .colon{
+  display: inline;
+  font-size: 3rem;
+}
+
+.semicolon{
+  display: none;
+}
+
+.semicolon-on .semicolon{
+  display: inline;
+  font-size: 3rem;
+}
+.semicolon-on .semicolon-replace{
+  display: none;
+}
+
+
+.question-disappear .question{
+  opacity: 0%;
+}
+.exclamation-disappear .exclamation{
+  display: none;
+}
+.quotation-disappear .quotation{
+  display: none;
+}
+.apostrophe-disappear .apostrophe{
+  display: none;
+}
+.period-disappear .period{
+  display: none;
+}
+.comma-disappear .comma{
+  display: none;
+}
+.colon-disappear .colon{
+  display: none;
+}
+/* .semicolon-disappear .semicolon{
+  display: none;
+} */
 
 h4{
   color: #000;
