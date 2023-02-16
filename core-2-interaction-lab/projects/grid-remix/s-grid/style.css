@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 5em;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row dense;
+    background-color:rgb(255, 222, 222);
+  }
+  
+  .item {
+    border-radius: 0.25em;
+    padding: 2em;
+  }
+  
+  .large {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    height: 200px;
+  }
+
+img {
+    height: auto;
+    max-width: 80%;
+    filter:brightness(115%);
+    padding: 0;
+    justify-content: center;
+  }
