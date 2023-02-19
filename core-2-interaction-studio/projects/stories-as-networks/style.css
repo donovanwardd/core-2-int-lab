@@ -533,7 +533,7 @@ h5{
 
 
 
-  @media ( max-width: 380px ){
+  @media ( max-width: 600px ){
     h1 {
       color: #000;
       font-size: 110px;
