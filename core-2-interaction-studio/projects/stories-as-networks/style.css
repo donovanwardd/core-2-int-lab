@@ -521,7 +521,19 @@ h5{
 
 
 
-  @media ( max-width: 600px ){
+
+
+
+
+
+
+
+
+
+
+
+
+  @media ( max-width: 380px ){
     h1 {
       color: #000;
       font-size: 110px;
@@ -534,6 +546,7 @@ h5{
       align-items: center;
       flex-direction: column;
     }
+  
     h1:hover{
       border: none;
       color: rgb(86, 86, 86);
@@ -582,28 +595,39 @@ h5{
       font-family: "neue-haas-grotesk-text", sans-serif;
       font-weight: 700;
       font-style: normal;
-      height: 50px;
+      height: 220px;
       flex-direction: column;
       text-decoration: none;
       padding: 0.5rem;
     }
   
+    h3:hover{
+      border: none;
+      color: rgb(86, 86, 86);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+  
   .original-text{
     display: flex;
     margin-top: -35px;
-    line-height: 250%;
+    line-height: 180%;
     padding: 2em;
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16.5px;
     letter-spacing: 0.035rem;
+    max-width: 71ch;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .next-arrow{
-    font-size: 25.5px;
+    font-size: 35px;
     text-decoration: none;
     font-style: bold;
+    color: black;
   }
   
   a:link {
@@ -611,133 +635,417 @@ h5{
     color: black;
   }
   
+  a:visited{
+    text-decoration: none;
+    color: black;
+  }
+  
   .punct-highlight{
-    display: flex;
+    display: block;
     margin-top: -185px;
-    margin-left: 25px;
-    font-size: 24px;
+    font-size: 33px;
     font-style: bold;
     color: black;
     letter-spacing: 0.8rem;
+    margin-right: auto;
+   margin-left: auto;
+   text-align: center;
   }
   
   .punct-circle-question {
     display: inline-block;
     color: #FFB46D;
     border-color: #FFB46D;
-    border: 3px solid #FFB46D;
+    border: 4px solid #FFB46D;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
+    margin-left: px;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
+  }
+  
+  .move-question-mark{
+    display: flex;
+    margin-left: 10.6px;
   }
   
   .punct-circle-exclam {
     display: inline-block;
     color: #a691db;
     border-color: #a691db;
-    border: 3px solid #a691db;
+    border: 4px solid #a691db;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
+  }
+  
+  .move-exclamation-mark{
+    display: flex;
+    margin-left: 15.5px;
   }
   
   .punct-circle-quote {
     display: inline-block;
     color: #3DC1CB;
     border-color: #3DC1CB;
-    border: 3px solid #3DC1CB;
+    border: 4px solid #3DC1CB;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
+  }
+  
+  .move-quote-mark{
+    display: flex;
+    margin-left: -1px;
   }
   
   .punct-circle-apos {
     display: inline-block;
     color: #7EBBD8;
     border-color: #7EBBD8;
-    border: 3px solid #7EBBD8;
+    border: 4px solid #7EBBD8;
     border-radius: 50%;
-    width: 29px;
-    height: 29px;
-    line-height: 29px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
+  }
+  
+  .move-apos-mark{
+    display: flex;
+    margin-left: 16.25px;
   }
   
   .punct-circle-period {
     display: inline-block;
     color: #77DD77;
     border-color: #77DD77;
-    border: 3px solid #77DD77;
+    border: 4px solid #77DD77;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
+  }
+  
+  .move-period-mark{
+    display: flex;
+    margin-left: 16px;
   }
   
   .punct-circle-comma {
     display: inline-block;
     color: #FF7777;
     border-color: #FF7777;
-    border: 3px solid #FF7777;
+    border: 4px solid #FF7777;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
+  }
+  
+  .move-comma-mark{
+    display: flex;
+    margin-left: 16px;
   }
   
   .punct-circle-colon {
     display: inline-block;
     color: #FFE345;
     border-color: #FFE345;
-    border: 3px solid #FFE345;
+    border: 4px solid #FFE345;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
   }
   
+  .move-colon-mark{
+    display: flex;
+    margin-left: 16px;
+  }
+  
   .punct-circle-scolon {
     display: inline-block;
     color: #E995BA;
     border-color: #E995BA;
-    border: 3px solid #E995BA;
+    border: 4px solid #E995BA;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: end;
   
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 700;
+  }
+  
+  .move-semicolon-mark{
+    display: flex;
+    margin-left: 16px;
+  }
+  
+  .punct-circle-question:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(255,180,109,0.9);
+    -moz-box-shadow: 0px 0px 51px 14px rgba(255,180,109,0.9);
+    box-shadow: 0px 0px 51px 14px rgba(255,180,109,0.9);
+  }
+  
+  .punct-circle-exclam:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(166,145,219,0.9);
+    -moz-box-shadow: 0px 0px 51px 14px rgba(166,145,219,0.9);
+    box-shadow: 0px 0px 51px 14px rgba(166,145,219,0.9);
+  }
+  
+  .punct-circle-quote:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(61,194,203,0.9);
+    -moz-box-shadow: 0px 0px 51px 14px rgba(61,194,203,0.9);
+    box-shadow: 0px 0px 51px 14px rgba(61,194,203,0.9);
+  }
+  
+  .punct-circle-apos:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(126,188,216,0.9);
+    -moz-box-shadow: 0px 0px 51px 14px rgba(126,188,216,0.9);
+    box-shadow: 0px 0px 51px 14px rgba(126,188,216,0.9);
+  }
+  
+  .punct-circle-period:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(119,221,119,0.9);
+    -moz-box-shadow: 0px 0px 51px 14px rgba(119,221,119,0.9);
+    box-shadow: 0px 0px 51px 14px rgba(119,221,119,0.9);
+  }
+  
+  .punct-circle-comma:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(255,119,119,0.9);
+    -moz-box-shadow: 0px 0px 51px 14px rgba(255,119,119,0.9);
+    box-shadow: 0px 0px 51px 14px rgba(255,119,119,0.9);
+  }
+  
+  .punct-circle-colon:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(255,227,69,0.9);
+  -moz-box-shadow: 0px 0px 51px 14px rgba(255,227,69,0.9);
+  box-shadow: 0px 0px 51px 14px rgba(255,227,69,0.9);
+  }
+  
+  .punct-circle-scolon:active{
+    -webkit-box-shadow:0px 0px 51px 14px rgba(233,149,185,0.9);
+    -moz-box-shadow: 0px 0px 51px 14px rgba(233,149,185,0.9);
+    box-shadow: 0px 0px 51px 14px rgba(233,149,185,0.9);
+  }
+  
+  
+  .fade-on-load{
+    animation: fadein 4s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .original-text-all{
+    margin: 2px;
+  
+    line-height: 200%;
+    padding: 3em;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.035rem;
+    max-width: 70ch;
+  }
+  
+  .rewrite-text-all{
+    margin: 2px;
+  
+    line-height: 200%;
+    padding: 3em;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.035rem;
+    max-width: 70ch;
+  }
+  
+  .question{
+    display: none;
+  }
+  
+  .question-on .question{
+    display: inline;
+    color: #FFB46D;
+    font-weight: 700;
+  }
+  
+  .question-on .question-replace{
+    display: none;
+  }
+  
+  .exclamation{
+    display: none;
+  }
+  
+  .exclamation-on .exclamation{
+    display: inline;
+    color: #a691db;
+    font-weight: 700;
+  }
+  
+  .exclamation-on .exclamation-replace{
+    display: none;
+  }
+  
+  .quotation{
+    display: none;
+  }
+  
+  .quotation-on .quotation{
+    display: inline;
+    color: #3DC1CB;
+    font-weight: 700;
+  }
+  
+  .quotation-on .quotation-replace{
+    display: none;
+  }
+  
+  
+  .apostrophe{
+    display: none;
+  }
+  
+  .apostrophe-on .apostrophe{
+    display: inline;
+    color: #7EBBD8;
+    font-weight: 700;
+  }
+  
+  .apostrophe-on .apsotrophe-replace{
+    display: none;
+  }
+  
+  .period{
+    display: none;
+  }
+  
+  .period-on .period{
+    display:inline;
+    color: #77DD77;
+    font-weight: 700;
+  }
+  
+  .period-on .period-replace{
+    display: none;
+  }
+  
+  .comma{
+    display: none;
+  }
+  
+  .comma-on .comma{
+    display: inline;
+    color: #FF7777;
+    font-weight: 700;
+  }
+  
+  .comma-on .comma-replace{
+    display: none;
+  }
+  
+  .colon{
+    display: none;
+  }
+  
+  .colon-on .colon{
+    display: inline;
+    color: #FFE345;
+    font-weight: 700;
+  }
+  
+  .colon-on .colon-replace{
+    display: none;
+  }
+  
+  .semicolon{
+    display: none;
+  }
+  
+  .semicolon-on .semicolon{
+    display: inline;
+    color: #E995BA;
+    font-weight: 700;
+  }
+  .semicolon-on .semicolon-replace{
+    display: none;
+  }
+  
+  
+  
+  h4{
+    color: #000;
+      font-size: 18px;
+      font-family: "neue-haas-grotesk-text", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      width: 10px;
+      flex-direction: column;
+      text-decoration: none;
+      padding: 0.5rem;
+      margin-left: 22px;
+  }
+  
+  h5{
+    color: #000;
+      font-size: 24px;
+      font-family: "neue-haas-grotesk-text", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      height: 20px;
+      flex-direction: column;
+      text-decoration: none;
+      padding: 0.5rem;
+  }
+  
+  .bold{
+    color: #000;
+      font-size: 18px;
+      font-family: "neue-haas-grotesk-text", sans-serif;
+      font-weight: 700;
+      font-style: normal;
   }
   }
