@@ -1,0 +1,61 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.poster{
+    height: 11in;
+    width: 13.5in;
+    display: flex;
+    border: 2px solid black;
+    background-color: #1d1d1b;
+}
+
+.grid{
+    width: 500px;
+    height: 594px;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 20px;
+    background-color: #1d1d1b;
+
+    margin-top: 55px;
+    margin-left: 105px;
+}
+
+.grey{
+    background: #3f3f3f;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.blue{
+    background: #2deded;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.white{
+    background: #ffffff;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+
+.footer{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    width: 1050px;
+    height: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 950px; left: 125px;
+    border-top: 3px solid #ffffff;
+}
+
+.right
+{
+    text-align: right;
+    margin-top: -76px;
+}
