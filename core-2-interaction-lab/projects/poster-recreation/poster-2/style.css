@@ -1,0 +1,77 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.poster{
+    height: 11in;
+    width: 8.5in;
+    display: flex;
+    border: 2px solid black;
+}
+
+.grid{
+    width: 600px;
+    height: 712.8px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 20px;
+    background: #ffffff;
+
+    margin-top: 80px;
+    margin-left: 105px;
+}
+
+.red{
+    background: #ff3b2a;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.orange-1{
+    background: #ff632c;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.orange-2{
+    background: #ff8c2e;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.orange-3{
+    background: #ffae2c;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.yellow-1{
+    background: #ffeb2e;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.yellow-2{
+    background: #faff31;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2em;
+}
+
+.footer{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    width: 600px;
+    height: 30px;
+    color: #ff632c;
+    position: absolute;
+    top: 920px; left: 125px;
+    border-top: 3px solid #ff632c;
+}
+
+.right
+{
+    text-align: right;
+    margin-top: -76px;
+}
