@@ -3,12 +3,37 @@ body{
 }
 h1{
   font-weight: normal;
-  font-style: italic;
 }
 
 #container{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+.icon{
+  margin: 20px;
+}
+/*.emoji{
+  font-size: 50px;
+}*/
+.category{
+  font-weight: bold;
+}
+/*.phrase{
+  font-size: 40px;
+}*/
+img{
+  width: 100%;
 }
 
-
+.food{
+  background: yellow;
+}
+.animal{
+  background: red;
+}
+.smiley{
+  background: green;
+}
+.travel{
+  background: blue;
+}
