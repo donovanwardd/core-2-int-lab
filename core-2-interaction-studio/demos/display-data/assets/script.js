@@ -33,16 +33,16 @@ fetch('./assets/emojis.json')
   })
   .catch(error => console.log(error));
 
-function processEmojis( data ){
+function displayData( data ){
   data.forEach( function(item, index){
     console.log(item, index);
-    let usgae = item['general-usage'];
+    let usage = item['general-usage'];
     console.log('usgae', usage);
     let newItem = document.createElement("div");
     newItem.classList.add("icon");
     //newItem.style.cssText = 'font-size: ${usage}px';
     newItem.innerHTML = `
-      <div class="usage">$[item{'general-usage'}]</div>
+      <div class="usage">${usage}</div>
       <div class="phrase">${item.sample}</div>
       <div class="category">${item.category}</div>
       <div class="emoji">${item.emoji}</div>`;

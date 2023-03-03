@@ -3,9 +3,12 @@ body{
 }
 h1{
   font-weight: normal;
+  font-style: italic;
 }
 
 #container{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+
+
