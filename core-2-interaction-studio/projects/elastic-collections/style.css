@@ -1,0 +1,63 @@
+body{
+    background: #1A1617;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+    width: 1600px;
+    height: 2800px;
+    margin: auto;
+    margin-top: 50px;
+    min-height: 0;
+}
+
+h1{
+    color: #ebdfc5;
+    font-size: 110px;
+    overflow: hidden;
+    margin-top: -22px;
+}
+
+.two-block{
+    background: #1A1617;
+    grid-column: span 2;
+    
+}
+
+.no-block{
+    display: none;
+}
+
+.black-block{
+    background: #1A1617;
+}
+
+.red-block{
+    background: #ee3b24;
+}
+
+.gold-block{
+    background: #bd9054;
+}
+
+
+.green-block{
+    background: #008043;
+}
+
+
+.blue-block{
+    background: #0552a4;
+}
+
+
+.yellow-block{
+    background: #df9d0b;
+}
+
+
+.grey-block{
+    background: #ebdfc5;
+}
