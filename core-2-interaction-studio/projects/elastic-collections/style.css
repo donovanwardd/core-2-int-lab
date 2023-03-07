@@ -23,6 +23,17 @@ h1{
     font-weight: 700;
 }
 
+h2{
+    color: #ebdfc5;
+    font-size: 45px;
+    overflow: hidden;
+    margin-bottom: 325px;
+    margin-left: 18px;
+
+    font-family: "abril-display", serif;
+    font-weight: 700;
+}
+
 .two-block{
     background: #1A1617;
     grid-column: span 2;
@@ -35,32 +46,63 @@ h1{
 
 .black-block{
     background: #1A1617;
+    transition: all .1s ease-in-out;
 }
 
 .red-block{
     background: #ee3b24;
+    transition: all .1s ease-in-out;
 }
 
 .gold-block{
     background: #bd9054;
+    transition: all .1s ease-in-out;
 }
 
 
 .green-block{
     background: #008043;
+    transition: all .1s ease-in-out;
 }
 
 
 .blue-block{
     background: #0552a4;
+    transition: all .1s ease-in-out;
 }
 
 
 .yellow-block{
     background: #df9d0b;
+    transition: all .1s ease-in-out;
 }
 
 
 .grey-block{
-    background: #ebdfc5;
+    background: #cbbc9b;
+    transition: all .1s ease-in-out;
+}
+
+.red-block:hover{
+    transform: scale(1.03);
+}
+
+.gold-block:hover{
+    transform: scale(1.03);
+}
+
+.green-block:hover{
+    transform: scale(1.03);
+}
+
+.blue-block:hover{
+    transform: scale(1.03);
+}
+
+.yellow-block:hover{
+    transform: scale(1.03);
+}
+
+.grey-block:hover{
+    transform: scale(1.03);
 }
