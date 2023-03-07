@@ -106,3 +106,11 @@ h2{
 .grey-block:hover{
     transform: scale(1.03);
 }
+
+section{
+    margin-top: 55px;
+}
+
+article{
+    margin-top: 4.5px;
+}
