@@ -1,0 +1,31 @@
+@import url("https://use.typekit.net/djp2asj.css");
+
+h1{
+    font-family: "urbane-rounded", sans-serif;
+font-weight: 500;
+font-style: normal;
+    font-size: 100px;
+    color: rgb(221, 221, 221);
+}
+
+a{
+ text-decoration: none;
+ font-family: "urbane-rounded", sans-serif;
+font-weight: 300;
+font-style: normal;
+    font-size: 40px;
+ color: rgb(221, 221, 221);
+ transition: all .1s ease-in-out;
+}
+
+a:hover{
+    transform: scale(1.5);
+    color: rgb(172, 197, 254);
+}
+
+body{
+    background-color: white;
+    padding: 2em;
+    margin-top: -30px;
+    
+}
