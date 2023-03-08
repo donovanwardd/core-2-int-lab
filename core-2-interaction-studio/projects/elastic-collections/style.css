@@ -27,7 +27,7 @@ h2{
     color: #ebdfc5;
     font-size: 45px;
     overflow: hidden;
-    margin-bottom: 325px;
+    margin-top: 28px;
     margin-left: 18px;
 
     font-family: "abril-display", serif;
@@ -108,9 +108,9 @@ h2{
 }
 
 section{
-    margin-top: 55px;
+    margin-top: 62px;
 }
 
 article{
-    margin-top: 4.5px;
+    margin-top: 12px;
 }
