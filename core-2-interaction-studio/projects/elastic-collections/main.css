@@ -27,12 +27,26 @@ body{
     display: flex;
     background-color: #ebdfc5;
     overflow: hidden;
-  position: relative;
+    position: relative;
     margin-top: -721px;
     margin-left: 670px;
     width: 100%;
     height: 673px;
     padding: 1.5em;
+}
+
+.right-align-1{
+    right: 0;
+    position:relative;
+    margin-top: -649px;
+    margin-left: 1450px;
+}
+
+.right-align-2{
+    right: 0;
+    position:relative;
+    margin-top: 114px;
+    margin-left: 1450px;
 }
 
 
