@@ -1,0 +1,72 @@
+body{
+    background: #1A1617;
+    overflow-x:hidden;
+}
+
+.flex-top{
+    display: flex;
+    background-color: #008043;
+    margin-top: -20px;
+    margin-left: -10px;
+    width: 102%;
+
+}
+
+.flex-side{
+    display: flex;
+    background-color: #ee3b24;
+    margin-left: -10px;
+    height: 120%;
+    padding: 1.5em;
+    margin-top: 180px;
+    width: 470px;
+}
+
+
+.flex-body{
+    display: flex;
+    background-color: #ebdfc5;
+    overflow: hidden;
+  position: relative;
+    margin-top: -721px;
+    margin-left: 670px;
+    width: 100%;
+    height: 673px;
+    padding: 1.5em;
+}
+
+
+h1{
+    color: #ebdfc5;
+    font-size: 40px;
+    overflow: hidden;
+    padding: 0.1em;
+    margin-left: 20px;
+    margin-top: 40px;
+
+    font-family: "abril-display", serif;
+    font-weight: 700;
+}
+
+h2{
+    color: #ebdfc5;
+    font-size: 105px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    writing-mode: vertical-lr;
+    text-orientation:sideways-right;
+    transform: rotate(180deg);
+
+    font-family: "abril-display", serif;
+    font-weight: 700;
+}
+
+p{
+    color: #1A1617;
+    font-size: 30px;
+    font-family: "abril-display", serif;
+    font-weight: 400;
+    margin-left: 50px;
+}
