@@ -101,3 +101,46 @@ p{
     font-size: 22px;
   max-width: 650px;
 }
+
+.top-logo-1{
+    float: right;
+    margin-top: -95px;
+    margin-right: 100px;
+}
+
+.top-logo-2{
+    float: right;
+    margin-top: -95px;
+    margin-left: 1200px;
+
+}
+
+.next-page{
+    color: #ebdfc5;
+    font-size: 120px;
+    text-decoration: none;
+    margin-top: 50px;
+    position: relative;
+  float: right;
+}
+
+.previous-page{
+    color: #ebdfc5;
+    font-size: 120px;
+    text-decoration: none;
+    margin-top: 50px;
+    position: relative;
+  float: left;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: #ebdfc5;
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: #ebdfc5;
+}

@@ -26,8 +26,7 @@ function displayData( data ){
         <div class="category">${item.location}</div>
         <div class="category">${item.reigon}</div>
         <div class="category">${item.status}</div>
-        <div class="category">${item.date}</div>
-        <div class="category">${item.key}</div>`;
+        <div class="category">${item.date}</div>`;
 
         container.appendChild(newItem);  
     }
