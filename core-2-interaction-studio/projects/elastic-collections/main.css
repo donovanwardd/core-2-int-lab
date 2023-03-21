@@ -65,13 +65,17 @@ h1{
 h2{
     color: #ebdfc5;
     font-size: 122px;
-    overflow: hidden;
-    margin-top: 20px;
+    margin-top: 300px;
     margin-left: 20px;
-    margin-bottom: 20px;
-    writing-mode: vertical-lr;
-    text-orientation:sideways-right;
-    transform: rotate(180deg);
+    margin-bottom: 10px;
+    margin-right: -100px;
+    width: 500px;
+    white-space: pre;
+
+    transform: rotate(270deg);
+    
+   
+   
 
     font-family: "abril-display", serif;
     font-weight: 700;
@@ -130,7 +134,7 @@ p{
     text-decoration: none;
     margin-top: 50px;
     position: relative;
-  float: left;
+  float: left ;
 }
 
 

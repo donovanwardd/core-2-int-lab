@@ -2,7 +2,7 @@
     {
       "classification": "Classification: Birds",
       "scientificname": "Scientific Name: Charadrius melodus",
-      "commonname": "Common Name: Piping Plover",
+      "commonname": "Common Name: Piping plover",
       "description": "Description: This pale shorebird with orange legs is the color of dry beach sand. It weighs 1.5 to 2.25 ounces and is 5.5 inches long. In spring and summer, it sports a single black neck band and a narrow black band across its forehead. In flight, the rump is white. The bill is yellowish with a black tip. The sexes appear similar in both size and plumage. The call is a melodious, organ-like, two- to four-note whistle. Piping plovers are seen individually or in small flocks.",
       "location": "Location: [Great Lakes watershed DPS] - Great Lakes, watershed in States of IL, IN, MI, MN, NY, OH, PA, and WI and Canada (Ont.)",
       "reigon": "Reigon: 3",
@@ -28,27 +28,30 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 5",
       "status": "Status: Threatened",
-      "date": "Date of Status Update:01/13/2015"
+      "date": "Date of Status Update: 01/13/2015",
+      "key": "red-knot"
     },
     {
       "classification": "Classification: Birds",
       "scientificname": "Scientific Name: Sterna dougallii dougallii",
       "commonname": "Common Name: Roseate tern",
-      "description": "Description: The roseate tern is a graceful bird, 14 to 17 inches long, with a wingspan of about 30 inches. It resembles the common tern. Its back and upper wings are a light pearly-grey, while its underparts are white. The tip of the white tail extends well beyond its wing tips when the bird is at rest. In the summer it has a black cap, nape and bill. Juveniles have prominent, dark \"V\"s on the feathers of the back. The flight of this bird is distinctive, with rapid, shallow wingbeats of equal emphasis on the upstroke and downstroke. Its call is a rasping \"z-aa-p\" or a soft, two-syllabled \"chivy.\" Roseate terns feed primarily on American sand lance, a small marine fish.",
+      "description": "Description: The roseate tern is a graceful bird, 14 to 17 inches long, with a wingspan of about 30 inches. It resembles the common tern. Its back and upper wings are a light pearly-grey, while its underparts are white. The tip of the white tail extends well beyond its wing tips when the bird is at rest. In the summer it has a black cap, nape and bill. Juveniles have prominent, dark \"V\"s on the feathers of the back. The flight of this bird is distinctive, with rapid, shallow wingbeats of equal emphasis on the upstroke and downstroke. Roseate terns feed primarily on American sand lance, a small marine fish.",
       "location": "Location: Northeast U.S. nesting population",
       "reigon": "Reigon: 5",
       "status": "Status: Endangered",
-      "date": "Date of Status Update:11/03/1987"
+      "date": "Date of Status Update: 11/03/1987",
+      "key": "roseate-tern"
     },
     {
       "classification": "Classification: Clams",
       "scientificname": "Scientific Name: Pleurobema clava",
       "commonname": "Common Name: Clubshell",
-      "description": "Description: Pleurobema clava belongs to the subfamily Ambleminae and the tribe Pleurobemini, which includes four extant and one likely extirpated New York species in the genera Elliptio, Fusconaia, and Pleurobema (Haag 2012). In general, the shells are of this tribe are unsculptured and larvae are brooded only in the outer demibranchs (with exceptions) (Graf and Cummings 2011). Pleurobema clava is the only member of the Pleurobema genus with an orange viscera and foot. The genus name pleurobema, meaning step, refers to the ribs found between the shell annulae. The species name, clava, means club and refers to the general shape of the shell (Watters et al. 2009).",
+      "description": "Description: Pleurobema clava belongs to the subfamily Ambleminae and the tribe Pleurobemini, which includes four extant and one likely extirpated New York species in the genera Elliptio, Fusconaia, and Pleurobema (Haag 2012). In general, the shells are of this tribe are unsculptured and larvae are brooded only in the outer demibranchs (with exceptions) (Graf and Cummings 2011). Pleurobema clava is the only member of the Pleurobema genus with an orange viscera and foot.",
       "location": "Location: Wherever Found; Except where listed as Experimental Populations",
       "reigon": "Reigon: 5",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 01/23/1993"
+      "date": "Date of Status Update: 01/23/1993",
+      "key": "clubshell"
     },
     {
       "classification": "Classification: Clams",
@@ -58,7 +61,8 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 5",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 03/15/1990"
+      "date": "Date of Status Update: 03/15/1990",
+      "key": "dwarf-wedgemussel"
     },
     {
       "classification": "Classification: Clams",
@@ -68,17 +72,19 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 5",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 01/23/1993"
+      "date": "Date of Status Update: 01/23/1993",
+      "key": "northern-riffleshell"
     },
     {
       "classification": "Classification: Clams",
       "scientificname": "Scientific Name: Villosa fabalis",
-      "commonname": "Common Name: Rayed Bean",
+      "commonname": "Common Name: Rayed bean",
       "description": "Description: Villosa fabalis belongs to the subfamily Ambleminae and the tribe Lampsilini, which includes 17 extant and 6 likely extirpated New York species of the genera Actinonaias, Epioblasma, Lampsilis, Leptodea, Ligumia, Obovaria, Potamilus, Ptychobranchus, Toxolasma, Truncilla, and Villosa (Haag 2012, Graf and Cummings 2011). V. fabalis is in the genus Villosa meaning shaggy or rough, has evolved into a clade with many examples of smooth exteriors, including the rayed bean. The species name fabalis, meaning “faba” or “bean,” aptly describes its small, solid, bean-shape and size (Watters et al. 2009).",
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 03/16/2012"
+      "date": "Date of Status Update: 03/16/2012",
+      "key": "rayed-bean"
     },
     {
       "classification": "Classification: Clams",
@@ -88,7 +94,8 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 03/16/2012"
+      "date": "Date of Status Update: 03/16/2012",
+      "key": "snuffbox-mussel"
     },
     {
       "classification": "Classification: Ferns and Allies",
@@ -98,7 +105,8 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 5",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 07/15/2023"
+      "date": "Date of Status Update: 07/15/2023",
+      "key": "fern"
     },
     {
       "classification": "Classification: Flowering Plants",
@@ -108,47 +116,52 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 07/19/1988"
+      "date": "Date of Status Update: 07/19/1988",
+      "key": "goldenrod"
     },
     {
       "classification": "Classification: Flowering Plants",
       "scientificname": "Scientific Name: Rhodiola integrifolia ssp. leedyi",
       "commonname": "Common Name: Leedy's roseroot",
-      "description": "Description: Leedy's roseroot is a cliffside wildflower, found today in only seven locations in three states. Four populations are found in Fillmore and Olmsted Counties, Minnesota. Two are in upstate New York, a large population on the shores of Seneca Lake and a single plant at Watkins Glen. In South Dakota the subspecies occurs on Black Hills National Forest on a cliff at approximately 7,000 feet above sea level. Leedy's roseroot has a relatively elongate, leafy stem. The closely-packed leaves arise directly from the main stem and are smooth, with irregularly toothed to toothless edges. Although they are succulent, they can appear quite limp in dry weather. Male and female flowers are borne on separate plants. The small 4- to 5-petaled flowers are arranged in dense heads at the end of the leafy stem. They vary in color from dark red to occasional yellow or oranges.",
+      "description": "Description: Leedy's roseroot is a cliffside wildflower, found today in only seven locations in three states. Four populations are found in Fillmore and Olmsted Counties, Minnesota. Two are in upstate New York, a large population on the shores of Seneca Lake and a single plant at Watkins Glen. In South Dakota the subspecies occurs on Black Hills National Forest on a cliff at approximately 7,000 feet above sea level. Leedy's roseroot has a relatively elongate, leafy stem. The closely-packed leaves arise directly from the main stem and are smooth, with irregularly toothed to toothless edges.",
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 04/23/1992"
+      "date": "Date of Status Update: 04/23/1992",
+      "key": "roseroot"
     },
     {
       "classification": "Classification: Flowering Plants",
       "scientificname": "Scientific Name: Scirpus ancistrochaetus",
       "commonname": "Common Name: Northeastern bulrush",
-      "description": "Description: Northeastern bulrush, first described as a new species by A.E. Schuyler in 1962, is a leafy, perennial herb approximately 80-120 centimeters in height. The lowermost leaves are up to 8 millimeters (mm) wide and 40-60 times as long as wide, while the uppermost leaves are 3-5 mm wide and 30-50 times as long as wide (Schuyler 1962). Flowering culms (stems) are produced from short, woody, underground rhizomes. The umbellate inflorescence has distinctly arching rays, which bear clusters of brown spikelets (small, elongated flower clusters). Each of the minute flowers has six small (1.1-1.7 mm long), rigid perianth bristles, and each bristle is armed with thickwalled, sharply pointed barbs projecting downward. Flowers have 0-3 stamens and a 3- parted style. The yellow-brown achenes (Figure 2) are 1.10-1.35 mm long, obovate, and tough and thickened above the seed (Schuyler 1962). Flowering occurs from mid-June to July, and fruit sets between July and September (Crow 1982).",
+      "description": "Description: Northeastern bulrush, first described as a new species by A.E. Schuyler in 1962, is a leafy, perennial herb approximately 80-120 centimeters in height. The lowermost leaves are up to 8 millimeters (mm) wide and 40-60 times as long as wide, while the uppermost leaves are 3-5 mm wide and 30-50 times as long as wide (Schuyler 1962). Flowering culms (stems) are produced from short, woody, underground rhizomes.",
       "location": "Location: n/a",
       "reigon": "Reigon: 5",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 05/08/1991"
+      "date": "Date of Status Update: 05/08/1991",
+      "key": "bulrush"
     },
     {
       "classification": "Classification: Flowering Plants",
       "scientificname": "Scientific Name: Aconitum noveboracense",
       "commonname": "Common Name: Northern wild monkshood",
-      "description": "Description: Northern wild monkshood is a federally threatened plant listed in 1978 and found in three disjunct populations: one bordering southwest Wisconsin and northeast Iowa, a second in northeast Ohio, and a third residing in the Catskill Mountains of New York. A member of the buttercup family, the species can be found on shaded to partially shaded cliffs, algific talus slopes, or on cool, streamside sites. Threats to northern monkshood are predominately related to habitat loss or degradation. Possible threats include: contamination and filling of sinkholes, grazing and trampling by livestock and deer, human foot traffic, logging, maintenance of highways and powerlines, misapplication of pesticides, quarrying and road building. Other threats include climate change , and some populations are threatened by collection.",
+      "description": "Description: Northern wild monkshood is a federally threatened plant listed in 1978 and found in three disjunct populations: one bordering southwest Wisconsin and northeast Iowa, a second in northeast Ohio, and a third residing in the Catskill Mountains of New York. A member of the buttercup family, the species can be found on shaded to partially shaded cliffs, algific talus slopes, or on cool, streamside sites. Threats to northern monkshood are predominately related to habitat loss or degradation.",
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 05/28/1978"
+      "date": "Date of Status Update: 05/28/1978",
+      "key": "monkshood"
     },
     {
       "classification": "Classification: Flowering Plants",
       "scientificname": "Scientific Name: Agalinis acuta",
       "commonname": "Common Name: Sandplain gerardia",
-      "description": "Description: The sandplain gerardia (Agalinis acuta) inhabits dry, sandy, poor-nutrient soils in sandplain and serpentine sites in Massachusetts, Rhode Island, Connecticut, New York and Maryland. Its favored growing conditions are native grasslands on sandy loam, loam and loamy sand soils. It requires exposed mineral soil in close proximity to little bluestem and other native grasses, with which it is thought to form hemiparasitic root connections. Most sites are within ten miles of the coast. The taxonomic relationship between A. acuta and the non-endangered A. tenella is unclear. They are morphologically distinct, but chloroplast DNA variation is not significant.",
+      "description": "Description: The sandplain gerardia (Agalinis acuta) inhabits dry, sandy, poor-nutrient soils in sandplain and serpentine sites in Massachusetts, Rhode Island, Connecticut, New York and Maryland. Its favored growing conditions are native grasslands on sandy loam, loam and loamy sand soils. It requires exposed mineral soil in close proximity to little bluestem and other native grasses, with which it is thought to form hemiparasitic root connections. Most sites are within ten miles of the coast. The taxonomic relationship between A. acuta and the non-endangered A. tenella is unclear.",
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 5",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 09/08/1988"
+      "date": "Date of Status Update: 09/08/1988",
+      "key": "gerardia"
     },
     {
       "classification": "Classification: Flowering Plants",
@@ -158,7 +171,8 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 4",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 04/08/1993"
+      "date": "Date of Status Update: 04/08/1993",
+      "key": "amaranth"
     },
     {
       "classification": "Classification: Flowering Plants",
@@ -168,7 +182,8 @@
       "location": "Location: n/a",
       "reigon": "Reigon: 5",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 09/10/1982"
+      "date": "Date of Status Update: 09/10/1982",
+      "key": "pogonia"
     },
     {
       "classification": "Classification: Insects",
@@ -178,17 +193,19 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 12/15/1992"
+      "date": "Date of Status Update: 12/15/1992",
+      "key": "butterfly"
     },
     {
       "classification": "Classification: Mammals",
       "scientificname": "Scientific Name: Myotis sodalis",
       "commonname": "Common Name: Indiana bat",
-      "description": "Description: The Indiana bat is one of nine bat species found in New York. All are small as mammals go, this species being roughly 2 inches (51 mm) in length and weighing approximately .2 -.3 ounce (6-9 gm). Identifying most of New York's bats is not easy and the Indiana bat is one of the most difficult. It can be distinguished from its closest look alike, the little brown bat (Myotis lucifugus), by several rather obscure features. Generally, the Indiana bat is uniformly dark grey to grayish-brown in color and often has a pinkish colored nose. The little brown bat has brown fur; its ears and nose are often slightly darker, giving the appearance of a faintly contrasting dark mask, a feature that is noticeably lacking in the Indiana bat. An Indiana bat's feet are smaller, about 1/3 in. in length, with few if any hairs. These hairs do not extend beyond the tips of the toes. The calcar (a cartilaginous projection from the foot which helps support the membrane between the foot and the tail) is generally keeled in the Indiana bat but not in the little brown. Indiana bats are generally found in tightly packed clusters. In the center of the cluster, only the faces and wrists are visible. Little browns generally occur in loose clusters.",
+      "description": "Description: The Indiana bat is one of nine bat species found in New York. All are small as mammals go, this species being roughly 2 inches (51 mm) in length and weighing approximately .2 -.3 ounce (6-9 gm). Identifying most of New York's bats is not easy and the Indiana bat is one of the most difficult. It can be distinguished from its closest look alike, the little brown bat (Myotis lucifugus), by several rather obscure features. Generally, the Indiana bat is uniformly dark grey to grayish-brown in color and often has a pinkish colored nose.",
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 03/12/1967"
+      "date": "Date of Status Update: 03/12/1967",
+      "key": "indiana-bat"
     },
     {
       "classification": "Classification: Mammals",
@@ -198,37 +215,41 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 05/05/2015"
+      "date": "Date of Status Update: 05/05/2015",
+      "key": "long-eared-bat"
     },
     {
       "classification": "Classification: Reptiles",
       "scientificname": "Scientific Name: Glyptemys muhlenbergii",
       "commonname": "Common Name: Bog turtle",
-      "description": "Description: The bog turtle is New York's smallest turtle, reaching a maximum length of 4.5 inches. A bright yellow or orange blotch on each side of its head and neck are a distinctive feature of this species. The body color is dark with an orange-red wash on the inside of the legs of some individuals. The carapace (upper shell) is domed and somewhat rectangular, often with prominent rings on the shell plates (scutes). Older individuals may have smooth or polished shells, likely a result of burrowing into coarse soils. Generally dark brown, the carapace is sometimes highlighted by a chestnut sunburst pattern in each scute. The plastron (lower shell) is not hinged and patterned with black blotches. As with most turtles, the plastron of the male is slightly concave while in females it is flat.",
+      "description": "Description: The bog turtle is New York's smallest turtle, reaching a maximum length of 4.5 inches. A bright yellow or orange blotch on each side of its head and neck are a distinctive feature of this species. The body color is dark with an orange-red wash on the inside of the legs of some individuals. The carapace (upper shell) is domed and somewhat rectangular, often with prominent rings on the shell plates (scutes). Older individuals may have smooth or polished shells, likely a result of burrowing into coarse soils.",
       "location": "Location: Wherever found, except GA, NC, SC, TN, VA",
       "reigon": "Reigon: 5",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 11/05/1997"
+      "date": "Date of Status Update: 11/05/1997",
+      "key": "bog-turtle"
     },
     {
       "classification": "Classification: Reptiles",
       "scientificname": "Scientific Name: Sistrurus catenatus",
-      "commonname": "Common Name: Eastern Massasauga (=rattlesnake)",
-      "description": "Description: The massasauga rattlesnake is the smallest of the three venomous snakes found in New York State, the other two being the timber rattlesnake (Crotalus horridus) and the copperhead (Agkistrodon contortrix). Derived from the Chippewa language, \"massasauga\" translates to \"great river-mouth\" and probably refers to the snake's preference for wet habitats, including riverine bottomlands. The adult massasauga, also known as the \"swamp rattler,\" is a stout-bodied snake with a broad head. It measures 18-40 inches in length. Average length is 27.5 inches. The body is distinctively marked with a row of large black or dark brown hourglass-shaped markings along the back and three rows of smaller dark spots on each side. The background coloration is gray or brownish-gray.",
+      "commonname": "Common Name: Eastern massasauga (=rattlesnake)",
+      "description": "Description: The massasauga rattlesnake is the smallest of the three venomous snakes found in New York State. Derived from the Chippewa language, \"massasauga\" translates to \"great river-mouth\" and probably refers to the snake's preference for wet habitats, including riverine bottomlands. The adult massasauga, also known as the \"swamp rattler,\" is a stout-bodied snake with a broad head. It measures 18-40 inches in length. Average length is 27.5 inches. The body is distinctively marked with a row of large black or dark brown hourglass-shaped markings along the back.",
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 3",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 10/01/2016"
+      "date": "Date of Status Update: 10/01/2016",
+      "key": "rattlesnake"
     },
     {
       "classification": "Classification: Reptiles",
       "scientificname": "Scientific Name: Eretmochelys imbricata",
       "commonname": "Common Name: Hawksbill sea turtle",
-      "description": "Description: The hawksbill is a small to medium-sized sea turtle that is distributed widely throughout tropical and subtropical waters. The hawksbill was originally named Testudo imbricata by Linnaeus. An Atlantic and Indian/Pacific subspecies were recognized by Smith and Smith (1979), although recent evidence does not support this designation (Pritchard and Trebbau 1984). This species has very occasionally been found as far north as Massachusetts and is considered a rare visitor to New York (NMFS 2013). Hawksbills are not found in the stranding record of New York, and have not been documented in recent research efforts in the area.",
+      "description": "Description: The hawksbill is a small to medium-sized sea turtle that is distributed widely throughout tropical and subtropical waters. The hawksbill was originally named Testudo imbricata by Linnaeus. An Atlantic and Indian/Pacific subspecies were recognized by Smith and Smith (1979), although recent evidence does not support this designation (Pritchard and Trebbau 1984). This species has very occasionally been found as far north as Massachusetts and is considered a rare visitor to New York (NMFS 2013).",
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 4",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 06/03/1970"
+      "date": "Date of Status Update: 06/03/1970",
+      "key": "hawksbill-turtle"
     },
     {
       "classification": "Classification: Reptiles",
@@ -238,7 +259,8 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 4",
       "status": "Status: Endangered",
-      "date": "Date of Status Update: 06/03/1970"
+      "date": "Date of Status Update: 06/03/1970",
+      "key": "leatherback"
     },
     {
       "classification": "Classification: Snails",
@@ -248,6 +270,7 @@
       "location": "Location: Wherever Found",
       "reigon": "Reigon: 5",
       "status": "Status: Threatened",
-      "date": "Date of Status Update: 08/03/1978"
+      "date": "Date of Status Update: 08/03/1978",
+      "key": "snail"
     }
   ]
