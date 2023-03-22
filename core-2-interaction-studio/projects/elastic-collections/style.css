@@ -23,12 +23,35 @@ h1{
     font-weight: 700;
 }
 
+h3{
+    color: #ebdfc5;
+    font-size: 110px;
+    overflow: hidden;
+    margin-top: -7px;
+    padding: 0.2em;
+
+    font-family: "abril-display", serif;
+    font-weight: 700;
+}
+
 h2{
     color: #ebdfc5;
     font-size: 45px;
     overflow: hidden;
     margin-top: 28px;
     margin-left: 18px;
+
+    font-family: "abril-display", serif;
+    font-weight: 700;
+}
+
+h4{
+    color: #ebdfc5;
+    font-size: 45px;
+    overflow: hidden;
+    padding: 0.4em;
+    margin-top: -35px;
+
 
     font-family: "abril-display", serif;
     font-weight: 700;
