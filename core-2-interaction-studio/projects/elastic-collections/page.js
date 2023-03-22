@@ -19,14 +19,14 @@ function displayData( data ){
         let newItem = document.createElement("div");
         newItem.classList.add("data-points");
         newItem.innerHTML = `
-        <div class="category">${item.classification}</div>
-        <div class="category">${item.scientificname}</div>
-        <div class="category">${item.commonname}</div>
-        <div class="category">${item.description}</div>
-        <div class="category">${item.location}</div>
-        <div class="category">${item.reigon}</div>
-        <div class="category">${item.status}</div>
-        <div class="category">${item.date}</div>`;
+        <div class="category"><span class="label">Classification: </span> ${item.classification}</div>
+        <div class="category"><span class="label">Scientific Name: </span>${item.scientificname}</div>
+        <div class="category"><span class="label">Common Name: </span>${item.commonname}</div>
+        <div class="category"><span class="label">Description: </span>${item.description}</div>
+        <div class="category"><span class="label">Location: </span>${item.location}</div>
+        <div class="category"><span class="label">Reigon: </span>${item.reigon}</div>
+        <div class="category"><span class="label">Status: </span>${item.status}</div>
+        <div class="category"><span class="label">Date of Status Update: </span>${item.date}</div>`;
 
         container.appendChild(newItem);  
     }
