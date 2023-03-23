@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Setting the pages character encoding -->
+	<meta charset="UTF-8">
+
+	<!-- The meta viewport will scale my content to any device width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <!-- Link to my stylesheet -->
+	 <link rel="stylesheet" href="json-example.css">
+	<title>Start up</title>
+</head>
+<body>
+<h1>Fetch API for design tokens</h1>
+<section id="token-data"></section>
+<script>
+	
+let container = document.querySelector('.box');
+
+fetch('token-simple.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    displayData(data);
+  })
+  .catch(error => console.log(error));
+
+function displayData( data ){
+
+    console.log( document.querySelector('body').id);
+    let body_key =  document.querySelector('body').id;
+  data.forEach( function(token){
+    console.log(token);
+    if ( item.key == body_key ){
+        let newItem = document.createElement("div");
+        newItem.classList.add("data-points");
+        newItem.innerHTML = `
+        <div class="category">${value}</div>
+        <div class="category">${type}</div>
+        
+        `;
+
+        container.appendChild(newItem);  
+    }
+
+  });
+}
+
+<div class= "box"> </div>
+
+
+</script>
+
+
+</body>
+</html>
