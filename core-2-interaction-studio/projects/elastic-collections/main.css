@@ -162,3 +162,187 @@ a:visited{
 font-weight: 700;
 font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: 600px ){
+
+    #my{
+        zoom: 67%;
+        }
+    
+    body{
+        background: #1A1617;
+        overflow-x:hidden;
+    }
+    
+    .flex-top{
+        display: flex;
+        background-color: #008043;
+        margin-top: -20px;
+        margin-left: -10px;
+        width: 104%;
+    
+    }
+    
+    .flex-side{
+        display: flex;
+        background-color: #ee3b24;
+        width: 100%;
+        height: 420px;
+     
+    }
+    
+    
+    .flex-body{
+        float: left;
+        background-color: #ebdfc5;
+        overflow: hidden;
+        position: relative;
+        margin-top: 15px;
+        margin-left: -50px;
+        width: 102%;
+        height: 1600px;
+        padding: 1.5em;
+    }
+    
+    .right-align-1{
+        float: left;
+        margin-left: 20px;
+        margin-top: -1600px;
+        z-index: 20;
+
+    }
+    
+    .right-align-2{
+        float: left;
+        margin-left: 20px;
+        margin-top: -1210px;
+        z-index: 20;
+    }
+    
+    
+    h1{
+        color: #ebdfc5;
+        font-size: 40px;
+        overflow: hidden;
+        padding: 0.1em;
+        margin-left: 20px;
+        margin-top: 40px;
+    
+        font-family: "abril-display", serif;
+        font-weight: 700;
+    }
+    
+    h2{
+        color: #ebdfc5;
+        font-size: 100px;
+        width: 500px;
+        white-space: pre;
+        transform: rotate(0deg);
+        margin-top: 50px;
+        font-family: "abril-display", serif;
+        font-weight: 700;
+    }
+    
+    p{
+        color: #1A1617;
+        font-size: 30px;
+        font-family: "abril-display", serif;
+        font-weight: 400;
+        margin-left: 50px;
+    }
+    
+    .data-points{
+        color: #1A1617;
+        font-size: 30px;
+        font-family: "abril-display", serif;
+        font-weight: 400;
+        margin-left: 50px;
+        margin-top: 800px;
+    }
+    
+    .category{
+        color: #1A1617;
+        line-height: 38px;
+        font-size: 22px;
+        max-width: 650px;
+        margin-top: 16px;
+    
+        font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+    
+    .top-logo-1{
+        float: right;
+        margin-top: -95px;
+        margin-right: 100px;
+    }
+    
+    .top-logo-2{
+        float: right;
+        margin-top: -95px;
+        margin-left: 1200px;
+    
+    }
+    
+    .next-page{
+        color: #ebdfc5;
+        font-size: 120px;
+        text-decoration: none;
+        margin-top: 50px;
+        position: relative;
+      float: right;
+    }
+    
+    .previous-page{
+        color: #ebdfc5;
+        font-size: 120px;
+        text-decoration: none;
+        margin-top: 50px;
+        position: relative;
+      float: left ;
+    }
+    
+    
+    a:link{
+        text-decoration: none;
+        color: #ebdfc5;
+    
+    }
+    
+    a:visited{
+        text-decoration: none;
+        color: #ebdfc5;
+    }
+    
+    .label{
+        font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+
+
+
+
+
+}
