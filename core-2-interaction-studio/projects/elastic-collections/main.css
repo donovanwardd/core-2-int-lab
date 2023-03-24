@@ -219,14 +219,14 @@ font-style: normal;
         margin-top: 15px;
         margin-left: -50px;
         width: 102%;
-        height: 1600px;
+        height: 1800px;
         padding: 1.5em;
     }
     
     .right-align-1{
         float: left;
         margin-left: 20px;
-        margin-top: -1600px;
+        margin-top: -1800px;
         z-index: 20;
 
     }
@@ -234,7 +234,7 @@ font-style: normal;
     .right-align-2{
         float: left;
         margin-left: 20px;
-        margin-top: -1210px;
+        margin-top: -1410px;
         z-index: 20;
     }
     
