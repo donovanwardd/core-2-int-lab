@@ -158,11 +158,11 @@ font-style: normal;
 
 .img-container{
     /* width: 540px; height: 345px; object-fit: cover; object-position: 100% 50%; */
-    width: 100%;
+    width: 90%;
 }
 
 img{
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -226,7 +226,7 @@ img{
         margin: 0;
         background: #1A1617;
         overflow-x:hidden;
-        height: 1900px;
+        height: 2270px;
     }
     *{
         box-sizing: border-box;
@@ -385,11 +385,11 @@ img{
         
         .img-container{
             /* width: 540px; height: 345px; object-fit: cover; object-position: 100% 50%; */
-            width: 100%;
+            width: 90%;
         }
         
         img{
-            width: 100%;
+            width: 90%;
         }
 
 }
