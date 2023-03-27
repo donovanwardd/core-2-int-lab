@@ -85,7 +85,7 @@ h1{
 
 h2{
     color: #ebdfc5;
-    font-size: 150px;
+    font-size: 125px;
     font-family: "abril-display", serif;
     font-weight: 700;
 
@@ -391,5 +391,21 @@ img{
         img{
             width: 90%;
         }
+
+}
+
+@media screen and (max-width: 500px){
+
+    h2{
+        color: #ebdfc5;
+        font-size: 40px;
+        font-family: "abril-display", serif;
+        font-weight: 700;
+
+    
+        padding: 1rem;
+        writing-mode:sideways-lr
+    }
+
 
 }
