@@ -158,13 +158,13 @@ font-style: normal;
 
 .img-container{
     /* width: 540px; height: 345px; object-fit: cover; object-position: 100% 50%; */
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
 }
 
 img{
-    width: 75%;
-    height: 75%;
+    width: 90%;
+    height: 90%;
 }
 
 
