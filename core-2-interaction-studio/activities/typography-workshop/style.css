@@ -30,34 +30,17 @@
 */
 
 @font-face {
-    font-family: 'Quiosco Display';
-    font-weight: 400;
-    font-style: normal;
-    src: url(fonts/quiosco/QuioscoDisplay-Regular.woff2) format("woff2"),url(fonts/quiosco/QuioscoDisplay-Regular.woff) format("woff"),url(fonts/quiosco/QuioscoDisplay-Regular.eot?#iefix) format("embedded-opentype")
+    font-family: "mokoko-variable", sans-serif;
+    font-variation-settings: "wght" 500;
+    src: url("https://use.typekit.net/djp2asj.css");
 }
-
-@font-face {
-    font-family: 'Quiosco Display';
-    font-weight: 400;
-    font-style: italic;
-    src: url(fonts/quiosco/QuioscoDisplay-Italic.woff2) format("woff2"),url(fonts/quiosco/QuioscoDisplay-Italic.woff) format("woff"),url(fonts/quiosco/QuioscoDisplay-Italic.eot?#iefix) format("embedded-opentype")
-}
-
-
 
 /*variable font*/
 
 @font-face {
-    font-family: 'Quiosco VF';
-    font-weight: 400 700;
-    src: url(fonts/quiosco-vf/QuioscoRomanVF.woff2) format("woff2-variations");
-}
-
-@font-face {
-    font-family: 'Quiosco VF';
-    font-weight: 400 700;
-    font-style: italic;
-    src: url(fonts/quiosco-vf/QuioscoItalicVF.woff2) format("woff2-variations");
+    font-family: "mokoko-variable", sans-serif;
+    font-variation-settings: "wght" 500;
+    src: url("https://use.typekit.net/djp2asj.css");
 }
 
 
@@ -74,8 +57,8 @@
 }
 
 body{
-    background: gray;
-    font-family: 'Quiosco VF';
+    background: rgb(38, 38, 138);
+    font-family: 'mokoko-variable';
     font-variation-settings: 'wght' var(--wght), 'GRAD' var(--GRAD);
 }
 
@@ -84,18 +67,31 @@ section{
     margin: auto;
     width: 600px;
     padding: var(--pad);
-    border: 5px solid red;
+    border: 5px solid black;
     box-sizing: border-box;
+    font-variation-settings: 'wght' var(--wght), 'GRAD' var(--GRAD);
 }
 
 h2{
     font-weight: bold;
 }
 
-h1, h2{
-  font-family: 'Quiosco Display';
+h1{
+    font-family: 'mokoko-variable';
+    font-size: 3rem;
+    line-height: 1.0;
+    padding: 1.5rem;
+    margin-left: -25px;
+  }
+
+
+
+h2{
+  font-family: 'mokoko-variable';
   font-size: 2rem;
   line-height: 1.0;
+  padding: 1.5rem;
+  margin-left: -25px;
 }
 p{
     text-indent: 3rem;
@@ -107,15 +103,22 @@ h1 + p, h2 + p{
     text-indent: 0;
 }
 h2{
-    margin-top: var(--pad);
+    margin-top: 2rem;
 }
 blockquote{
-    font-family: 'Quiosco Display';
+    font-family: 'mokoko-variable';
     font-size: 37px;
     margin-top: var(--pad);
     letter-spacing: -0.01em;
     line-height: 1.1;
     text-indent: -0.4em;
+    margin-bottom: var(--pad);
+    margin-left: 15px;
+}
+
+footer{
+    margin-top: var(--pad);
+    font-size: 0.7rem;
 }
 
 ul{
@@ -136,7 +139,16 @@ ul li:first-child{
     margin-top: 1em;
 }
 
-sup{
+h3{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-style: none;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+
+.sup{
     font-feature-settings: "sups" on;
     font-size: 1em;
     vertical-align: baseline;
