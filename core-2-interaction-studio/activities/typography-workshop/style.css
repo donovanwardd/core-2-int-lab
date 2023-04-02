@@ -133,7 +133,7 @@ ul li{
     margin-bottom: 1em;
 }
 ul li:before{
-    content: "* ";
+    content: "• ";
 }
 ul li:first-child{
     margin-top: 1em;
