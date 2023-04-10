@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <main>
+        </main>
+        <script type="text/javascript">
+            function getFact(){
+              fetch('https://dog.ceo/api/breeds/image/random')
+                .then(response => response.json())
+                .then(data => {
+                  console.log(data); 
+                  displayData( data )
+                })
+                .catch(error => console.log(error));
+            }
+​
+            function displayData(data){
+                const dogImage = document.createElement('img');
+                dogImage.src = data.message;
+                document.querySelector('main').appendChild(dogImage);
+            }
+            getFact();
+        </script>
+    </body>	
+</html>
