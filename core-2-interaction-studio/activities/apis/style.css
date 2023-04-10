@@ -15,6 +15,9 @@
    transform: translateX(-50%);
  }
 
+body{
+background-color: #C9C9EE;
+}
 
 
  @media (max-width: 768px) {
