@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script type="text/javascript">
+// Fetch data from API endpoint
+fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
+  .then(response => response.json())
+  .then(data => {
+    // Initialize variables to hold totals
+    let totals = {};
+    
+    // Loop over data for each day in September
+    for (let i = 0; i <= 30; i++) {
+      // Check if date is in September
+      let dateString = '201901' + String(i).padStart(2, '0');
+      let dateData = data.filter(row => row.date === dateString);
+      
+      // Calculate percentage present for each date
+      let totalEnrolled = 0;
+      let totalPresent = 0;
+      for (let j = 1; j < dateData.length; j++) {
+        let row = dateData[j];
+        totalEnrolled += parseInt(row.enrolled);
+        totalPresent += parseInt(row.present);
+      }
+      let percentagePresent = totalPresent / totalEnrolled * 100;
+      
+      // Add percentage to totals for this day
+      let day = i.toString().padStart(2, '0');
+      totals[day] = {
+        enrolled: totalEnrolled,
+        present: totalPresent,
+        percentagePresent: percentagePresent
+      };
+    }
+    
+    // Output results to console
+    for (let day in totals) {
+      let percentagePresent = totals[day].percentagePresent;
+      console.log(`Percentage of present students on 01/${day}/2019: ${percentagePresent.toFixed(2)}%`);
+    }
+  });
+
+
+    </script>
+  </body>	
+</html>
