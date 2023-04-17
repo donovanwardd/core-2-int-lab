@@ -1,0 +1,59 @@
+body{
+    background: black;
+}
+
+h1{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+
+    position: fixed;
+    top: 40%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+
+     width: 600px;
+
+     color: white;
+}
+
+
+h2{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+
+    position: fixed;
+    top: 48%;
+    left: 50.2%;
+     transform: translate(-50%, -50%);
+
+     width: 600px;
+
+     color: white;
+}
+
+h3{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+
+    position: fixed;
+    top: 56%;
+    left: 50.4%;
+     transform: translate(-50%, -50%);
+
+     width: 600px;
+
+     color: white;
+}
+
+
+.symbols{
+    display: inline-block;
+    margin-top: -50px;
+    font-size: 4em;
+}

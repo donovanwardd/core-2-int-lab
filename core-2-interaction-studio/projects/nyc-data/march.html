@@ -21,7 +21,7 @@ fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60
     let totals = {};
     
     // Loop over data for each day in September
-    for (let i = 0; i <= 30; i++) {
+    for (let i = 0; i <= 31; i++) {
       // Check if date is in September
       let dateString = '201903' + String(i).padStart(2, '0');
       let dateData = data.filter(row => row.date === dateString);
