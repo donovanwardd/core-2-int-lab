@@ -12,15 +12,46 @@
   </head>
   <body>
     <main>
+
+<div class="allcontainer">
+
+    <div class="headcontainer">
+      <div class="top-line"></div>
+      <h4>2018 — 2019 Daily Attendance</h4>
+
       <h3>✾</h3>
       <h2>2018</h2>
     <h1>SEPTEMBER</h1>
+
+    <div class="keycontainer">
+<div class="key-numbers">
+    <div class="key-numbers-type">0%-80%</div>
+    <div class="key-numbers-type">80%-90%</div>
+    <div class="key-numbers-type">90%-95%</div>
+    <div class="key-numbers-type">95%-100%</div>
+    <div class="key-numbers-type">N/A</div>
+</div>
+
 <div class="key">
-<div class="icon"></div>
-<div class="icon"></div>
-<div class="icon"></div>
-<div class="icon"></div>
-<div class="icon"></div>
+<div class="icon-red"></div>
+<div class="icon-yellow"></div>
+<div class="icon-light-green"></div>
+<div class="icon-dark-green"></div>
+<div class="icon-grey"></div>
+</div>
+
+</div>
+
+</div>
+
+<div class="daysoftheweek">
+  <div class="day">M</div>
+  <div class="day">T</div>
+  <div class="day">W</div>
+  <div class="day">Th</div>
+  <div class="day">F</div>
+  <div class="day">Sa</div>
+  <div class="day">Su</div>
 </div>
 
       <div class="grid">
@@ -64,22 +95,25 @@
         <div class="square" id="29"><p>29</p></div>
         <div class="square" id="30"><p>30</p></div>
       </div>
+
+    </div>
+
     </main>
+
+
     <script type="text/javascript">
-// Fetch data from API endpoint
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
   .then(response => response.json())
   .then(data => {
-    // Initialize variables to hold totals
+
     let totals = {};
     
-    // Loop over data for each day in September
+
     for (let i = 0; i <= 30; i++) {
-      // Check if date is in September
+
       let dateString = '201809' + String(i).padStart(2, '0');
       let dateData = data.filter(row => row.date === dateString);
       
-      // Calculate percentage present for each date
       let totalEnrolled = 0;
       let totalPresent = 0;
       for (let j = 1; j < dateData.length; j++) {
@@ -89,7 +123,6 @@ fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60
       }
       let percentagePresent = totalPresent / totalEnrolled * 100;
       
-      // Add percentage to totals for this day
       let day = i.toString().padStart(2, '0');
       totals[day] = {
         enrolled: totalEnrolled,
@@ -97,7 +130,6 @@ fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60
         percentagePresent: percentagePresent
       };
     
-  // Set the background color of the square based on the percentage present for that day
   let square = document.getElementById(`${day}`);
 if (square) {
   if (percentagePresent >= 95 && percentagePresent < 100) {
