@@ -284,3 +284,16 @@ h1{
     right: 0;
     bottom: 0;
   }
+
+  .triangle:hover{
+    border-color: transparent transparent #CCCCCC transparent;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #CCCCCC;
+  }
