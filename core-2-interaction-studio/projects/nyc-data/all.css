@@ -273,3 +273,14 @@ h1{
   .grey{
     background-color: #CCCCCC;
   }
+
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent white transparent; /* change the color to your preference */
+    right: 0;
+    bottom: 0;
+  }
