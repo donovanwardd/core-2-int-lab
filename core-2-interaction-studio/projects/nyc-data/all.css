@@ -1,5 +1,8 @@
 body{
     background-color: #252525;
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
 }
 
 main {
