@@ -302,3 +302,8 @@ h1{
   a:hover{
     color: #CCCCCC;
   }
+
+  .hideletters{
+    color: #252525;
+    user-select: none;
+  }

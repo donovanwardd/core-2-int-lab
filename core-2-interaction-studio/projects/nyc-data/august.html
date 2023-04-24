@@ -3,30 +3,119 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Test</title>
+    <title>NYC Attendance 2018-2019 School Year: August</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+	  <link href="all.css" rel="stylesheet">
 
 
   </head>
   <body>
     <main>
+
+<div class="allcontainer">
+
+    <div class="headcontainer">
+      <div class="top-line"></div>
+      <h4><a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data">2018 — 2019 Daily Attendance</a></h4>
+
+      <h3>☼</h3>
+      <h2>2019</h2>
+    <h1>AUGUST<span class="hideletters">XIIII</span></h1>
+
+    <div class="keycontainer">
+<div class="key-numbers">
+    <div class="key-numbers-type">0%-80%</div>
+    <div class="key-numbers-type">80%-90%</div>
+    <div class="key-numbers-type">90%-95%</div>
+    <div class="key-numbers-type">95%-100%</div>
+    <div class="key-numbers-type">N/A</div>
+</div>
+
+<div class="key">
+<div class="icon-red"></div>
+<div class="icon-yellow"></div>
+<div class="icon-light-green"></div>
+<div class="icon-dark-green"></div>
+<div class="icon-grey"></div>
+</div>
+
+</div>
+
+</div>
+
+<div class="daysoftheweek">
+  <div class="day">M</div>
+  <div class="day">T</div>
+  <div class="day">W</div>
+  <div class="day">Th</div>
+  <div class="day">F</div>
+  <div class="day">Sa</div>
+  <div class="day">Su</div>
+</div>
+
+      <div class="grid">
+        <div class="nosquare"></div>
+        <div class="nosquare"></div>
+        <div class="nosquare"></div>
+        <div class="square" id="01"><p>1</p></div>
+        <div class="square" id="02"><p>2</p></div>
+        <div class="square" id="03"><p>3</p></div>
+        <div class="square" id="04"><p>4</p></div>
+        <div class="square" id="05"><p>5</p></div>
+        <div class="square" id="06"><p>6</p></div>
+        <div class="square" id="07"><p>7</p></div>
+
+        <div class="square" id="08"><p>8</p></div>
+        <div class="square" id="09"><p>9</p></div>
+        <div class="square" id="10"><p>10</p></div>
+        <div class="square" id="11"><p>11</p></div>
+        <div class="square" id="12"><p>12</p></div>
+        <div class="square" id="13"><p>13</p></div>
+        <div class="square" id="14"><p>14</p></div>
+
+        <div class="square" id="15"><p>15</p></div>
+        <div class="square" id="16"><p>16</p></div>
+        <div class="square" id="17"><p>17</p></div>
+        <div class="square" id="18"><p>18</p></div>
+        <div class="square" id="19"><p>19</p></div>
+        <div class="square" id="20"><p>20</p></div>
+        <div class="square" id="21"><p>21</p></div>
+
+        <div class="square" id="22"><p>22</p></div>
+        <div class="square" id="23"><p>23</p></div>
+        <div class="square" id="24"><p>24</p></div>
+        <div class="square" id="25"><p>25</p></div>
+        <div class="square" id="26"><p>26</p></div>
+        <div class="square" id="27"><p>27</p></div>
+        <div class="square" id="28"><p>28</p></div>
+
+        <div class="square" id="29"><p>29</p></div>
+        <div class="square" id="30"><p>30</p></div>
+        <div class="square" id="30"><p>31</p></div>
+        <div class="nosquare"></div>
+      </div>
+
+    </div>
     </main>
+
+<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/all-view">
+<div class="triangle"></div>
+</a>
+
     <script type="text/javascript">
-// Fetch data from API endpoint
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
   .then(response => response.json())
   .then(data => {
-    // Initialize variables to hold totals
+
     let totals = {};
     
-    // Loop over data for each day in September
+
     for (let i = 0; i <= 31; i++) {
-      // Check if date is in September
+
       let dateString = '201908' + String(i).padStart(2, '0');
       let dateData = data.filter(row => row.date === dateString);
       
-      // Calculate percentage present for each date
       let totalEnrolled = 0;
       let totalPresent = 0;
       for (let j = 1; j < dateData.length; j++) {
@@ -36,23 +125,35 @@ fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60
       }
       let percentagePresent = totalPresent / totalEnrolled * 100;
       
-      // Add percentage to totals for this day
       let day = i.toString().padStart(2, '0');
       totals[day] = {
         enrolled: totalEnrolled,
         present: totalPresent,
         percentagePresent: percentagePresent
       };
-    }
     
-    // Output results to console
-    for (let day in totals) {
+  let square = document.getElementById(`${day}`);
+if (square) {
+  if (percentagePresent >= 95 && percentagePresent < 100) {
+    square.style.backgroundColor = '#0CC078'; // dark green
+  } else if (percentagePresent >= 90 && percentagePresent < 95) {
+    square.style.backgroundColor = '#84E884'; // light green
+  } else if (percentagePresent >= 80 && percentagePresent < 90) {
+    square.style.backgroundColor = '#FFFF81'; // yellow
+  } else if (percentagePresent >= 0 && percentagePresent < 80) {
+    square.style.backgroundColor = '#FB6962'; // red
+  } else {
+    square.style.backgroundColor = '#CCCCCC'; // grey
+  }
+}
+      };
+
+
+  for (let day in totals) {
       let percentagePresent = totals[day].percentagePresent;
-      console.log(`Percentage of present students on 08/${day}/2019: ${percentagePresent.toFixed(2)}%`);
+      console.log(`Percentage of present students on 8/${day}/2019: ${percentagePresent.toFixed(2)}%`);
     }
   });
-
-
     </script>
   </body>	
 </html>
