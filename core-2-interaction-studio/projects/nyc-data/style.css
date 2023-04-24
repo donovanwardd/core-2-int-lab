@@ -44,11 +44,31 @@ h3{
     position: fixed;
     top: 56%;
     left: 50.4%;
-     transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+     width: 600px;
+     height: 100px;
+
+     color: white;
+}
+
+h4{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+
+    position: fixed;
+    top: 56%;
+    left: 50.4%;
+    transform: translate(-50%, -50%);
 
      width: 600px;
 
      color: white;
+
+     z-index: 10;
 }
 
 
