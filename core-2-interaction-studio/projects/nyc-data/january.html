@@ -21,7 +21,7 @@
 
       <h3>❄︎</h3>
       <h2>2019</h2>
-    <h1>JANUARY<span class="hideletters">IIIII</span></h1>
+    <h1>JANUARY</h1>
 
     <div class="keycontainer">
 <div class="key-numbers">
@@ -96,12 +96,56 @@
         <div class="nosquare"></div>
       </div>
 
+      <div class="info-grid">
+        
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="info-square"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+
+      </div>
+
     </div>
     </main>
 
 <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/february">
 <div class="triangle"></div>
 </a>
+
+<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/december">
+  <div class="triangle-left"></div>
+  </a>
 
     <script type="text/javascript">
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
@@ -154,6 +198,22 @@ if (square) {
       console.log(`Percentage of present students on 1/${day}/2019: ${percentagePresent.toFixed(2)}%`);
     }
   });
+
+
+  const square = document.getElementById("31");
+let isSquareOn = false;
+
+square.addEventListener("click", function() {
+  isSquareOn = !isSquareOn; // toggle the state of the square
+  if (isSquareOn) {
+    console.log("The square is now on!");
+    circle.style.display = circle.style.display === "all";
+  } else {
+    console.log("The square is now off!");
+    circle.style.display = circle.style.display === "none";
+  }
+});
     </script>
   </body>	
 </html>
+
