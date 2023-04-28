@@ -375,3 +375,13 @@ h1{
   .empty{
     border-color: none;
   }
+
+  .info-sq{
+    position: relative;
+    border: 2px yellow;
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-167% - 14px);
+    left: 0;
+    background: red;
+  }
