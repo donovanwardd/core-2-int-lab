@@ -250,7 +250,7 @@ h1{
  
   .square p {
     text-align: right;
-    margin-top: -9px;
+    margin-top: 9px;
     margin-bottom: 12px;
     margin-left: -20px;
 
@@ -419,10 +419,10 @@ h1{
 
   .click-square p {
     text-align: right;
-    margin-top: -9px;
+    margin-top: 9px;
     margin-bottom: 12px;
     margin-left: -20px;
-    max-height: 80px;
+    max-height: 70px;
 
     letter-spacing: -5px;
     
