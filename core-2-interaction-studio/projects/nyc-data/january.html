@@ -90,8 +90,22 @@
 
         <div class="square" id="29"><p>29</p></div>
         <div class="square" id="30"><p>30</p></div>
-        <div class="square" id="31"><p>31</p>
-          <div class="info-sq">Extra Info</div>
+        <div class="click-square" id="31"><p>31</p>
+          <div class="info-sq">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            January 31st, 2019
+            <br>
+            <br>
+            Attendance Percentage: 57.37%
+            <br>
+            <br>
+            Notable Event: New York City experienced a polar vortex, where it was 2 degrees Fahrenheit in central park, with winds making it feel like -17 degrees Fahrenheit. It was cold enough to get frostbite on exposed skin. 
+          </div>
+          </div>
         </div>
         <div class="nosquare"></div>
         <div class="nosquare"></div>
@@ -162,19 +176,22 @@ if (square) {
   });
 
 
-  const square = document.getElementById("31");
-let isSquareOn = false;
+  var infoSquare = document.getElementById("31");
+  var infoContent = infoSquare.getElementsByClassName("info-sq")[0];
 
-square.addEventListener("click", function() {
-  isSquareOn = !isSquareOn; // toggle the state of the square
-  if (isSquareOn) {
-    console.log("The square is now on!");
-    circle.style.display = circle.style.display === "all";
-  } else {
-    console.log("The square is now off!");
-    circle.style.display = circle.style.display === "none";
-  }
+
+  infoSquare.onclick = function() {
+    infoContent.style.display = "block";
+  };
+
+
+const closeButton = document.querySelector('.close');
+
+closeButton.addEventListener('click', () => {
+  infoSquare.style.display = 'none';
 });
+
+
     </script>
   </body>	
 </html>
