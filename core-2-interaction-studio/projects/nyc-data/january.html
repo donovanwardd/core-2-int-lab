@@ -91,7 +91,7 @@
         <div class="square" id="29"><p>29</p></div>
         <div class="square" id="30"><p>30</p></div>
         <div class="click-square" id="31"><p>31</p>
-          <div class="info-sq">
+          <div class="info-sq-jan">
             <div class="close">
               🆇
             </div>
@@ -115,13 +115,22 @@
     </div>
     </main>
 
-<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/february">
-<div class="triangle"></div>
-</a>
 
+<footer>
+  <div class="bottom-line"></div>
+
+ <div class="bottom-left"> 
 <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/december">
-  <div class="triangle-left"></div>
+←
+</a>
+</div>
+
+<div class="bottom-right"> 
+<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/february">
+→
   </a>
+</div>
+</footer>
 
     <script type="text/javascript">
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
@@ -177,7 +186,7 @@ if (square) {
 
 
   var infoSquare = document.getElementById("31");
-  var infoContent = infoSquare.getElementsByClassName("info-sq")[0];
+  var infoContent = infoSquare.getElementsByClassName("info-sq-jan")[0];
 
 
   infoSquare.onclick = function() {
