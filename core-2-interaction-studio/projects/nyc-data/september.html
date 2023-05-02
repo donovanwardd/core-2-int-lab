@@ -64,7 +64,23 @@
         <div class="square" id="02"><p>2</p></div>
         <div class="square" id="03"><p>3</p></div>
         <div class="square" id="04"><p>4</p></div>
-        <div class="square" id="05"><p>5</p></div>
+        <div class="click-square" id="5"><p>5</p>
+          <div class="info-sq-sep">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            September 5th, 2018
+            <br>
+            <br>
+            Attendance Percentage: 89.98%
+            <br>
+            <br>
+            Notable Event: First day of school year.
+          </div>
+          </div>
+        </div>
         <div class="square" id="06"><p>6</p></div>
         <div class="square" id="07"><p>7</p></div>
 
@@ -99,9 +115,15 @@
     </div>
     </main>
 
-<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/october">
-<div class="triangle"></div>
-</a>
+    <footer>
+      <div class="bottom-line-sep"></div>
+    
+    <div class="bottom-right"> 
+    <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/february">
+    →
+      </a>
+    </div>
+    </footer>
 
     <script type="text/javascript">
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
@@ -154,6 +176,21 @@ if (square) {
       console.log(`Percentage of present students on 9/${day}/2018: ${percentagePresent.toFixed(2)}%`);
     }
   });
+
+  var infoSquare = document.getElementById("5");
+  var infoContent = infoSquare.getElementsByClassName("info-sq-sep")[0];
+
+
+  infoSquare.onclick = function() {
+    infoContent.style.display = "block";
+  };
+
+
+const closeButton = document.querySelector('.close');
+
+closeButton.addEventListener('click', () => {
+  infoSquare.style.display = 'none';
+});
     </script>
   </body>	
 </html>

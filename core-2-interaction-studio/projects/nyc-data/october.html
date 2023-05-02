@@ -63,7 +63,23 @@
         <div class="square" id="06"><p>6</p></div>
         <div class="square" id="07"><p>7</p></div>
 
-        <div class="square" id="08"><p>8</p></div>
+        <div class="click-square" id="8"><p>8</p>
+          <div class="info-sq-oct">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            October 8th, 2018
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: National Holiday - Indigenous Peoples Day
+          </div>
+          </div>
+        </div>
         <div class="square" id="09"><p>9</p></div>
         <div class="square" id="10"><p>10</p></div>
         <div class="square" id="11"><p>11</p></div>
@@ -99,9 +115,23 @@
     </div>
     </main>
 
-<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/november">
-<div class="triangle"></div>
-</a>
+
+    <footer>
+      <div class="bottom-line"></div>
+    
+     <div class="bottom-left"> 
+    <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/september">
+    ←
+    </a>
+    </div>
+    
+    <div class="bottom-right"> 
+    <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/november">
+    →
+      </a>
+    </div>
+    </footer>
+
 
     <script type="text/javascript">
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
@@ -154,6 +184,21 @@ if (square) {
       console.log(`Percentage of present students on 10/${day}/2018: ${percentagePresent.toFixed(2)}%`);
     }
   });
+
+  var infoSquare = document.getElementById("8");
+  var infoContent = infoSquare.getElementsByClassName("info-sq-oct")[0];
+
+
+  infoSquare.onclick = function() {
+    infoContent.style.display = "block";
+  };
+
+
+const closeButton = document.querySelector('.close');
+
+closeButton.addEventListener('click', () => {
+  infoSquare.style.display = 'none';
+});
     </script>
   </body>	
 </html>

@@ -25,6 +25,15 @@ footer{
   margin: auto;
 }
 
+.bottom-line-sep{
+  height: 3px;
+  background-color: white;
+
+  width: 81.5%;
+
+  margin-left: 96px;
+}
+
 footer .bottom-left{
   position: absolute;
   left: 0;
@@ -393,7 +402,126 @@ h1{
     opacity: 100;
   }
 
+  .info-sq-sep{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background: #FFFF81;
+    
+    max-height: 200px;
 
+    opacity: 100;
+  }
+
+  .info-sq-oct{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#CCCCCC;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
+  .info-sq-nov{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#FB6962;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
+
+.info-sq-dec{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#CCCCCC;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
+  .info-sq-feb{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#CCCCCC;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
+  .info-sq-mar{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#FB6962;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
+  .info-sq-apr{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#CCCCCC;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
+  .info-sq-may{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#CCCCCC;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
 
   .info-type{
     font-size: 12px;
@@ -404,7 +532,7 @@ h1{
     top: 0;
     left: 0;
 
-    color:white;
+    color:#252525;
     font-family: "indivisible", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -446,7 +574,7 @@ h1{
     line-height: 1;
     max-height: 150px;
     overflow: hidden;
-    color:white;
+    color:#252525;
     font-family: "indivisible", sans-serif;
     font-weight: 700;
     font-style: normal;
