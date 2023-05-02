@@ -523,6 +523,36 @@ h1{
     opacity: 100;
   }
 
+  .info-sq-jun{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#FB6962;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
+  .info-sq-jul{
+    display: none;
+    position: absolute;
+  
+    width: 210%;
+    height: calc(200% + 14px);
+    top: calc(-100% - 14px);
+    left: 0;
+    background:#CCCCCC;
+    
+    max-height: 200px;
+
+    opacity: 100;
+  }
+
   .info-type{
     font-size: 12px;
     line-height: 1;
