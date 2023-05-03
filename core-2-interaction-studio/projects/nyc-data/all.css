@@ -416,6 +416,9 @@ h1{
     border-color: none;
   }
 
+  .active .info-sq-jan{
+    display: block;
+  }
   .info-sq-jan{
     display: none;
     position: absolute;
