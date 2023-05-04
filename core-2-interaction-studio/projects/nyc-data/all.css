@@ -495,8 +495,7 @@ h1{
     left: 0;
     background: #FB6962;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -506,12 +505,11 @@ h1{
     position: absolute;
   
     width: 210%;
+    height: calc(230% - 14px);
     top: calc(-100% - 14px);
     left: 0;
     background: #FFFF81;
-    
-    height: 475px;
-      max-height: 1000px;
+
 
     opacity: 100;
   }
@@ -525,8 +523,7 @@ h1{
     left: 0;
     background:#CCCCCC;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -540,8 +537,7 @@ h1{
     left: 0;
     background:#FB6962;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -556,8 +552,7 @@ h1{
     left: 0;
     background:#CCCCCC;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -571,8 +566,7 @@ h1{
     left: 0;
     background:#CCCCCC;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -586,8 +580,7 @@ h1{
     left: 0;
     background:#FB6962;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -601,8 +594,7 @@ h1{
     left: 0;
     background:#CCCCCC;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -616,8 +608,7 @@ h1{
     left: 0;
     background:#CCCCCC;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -631,8 +622,7 @@ h1{
     left: 0;
     background:#FB6962;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
@@ -646,8 +636,7 @@ h1{
     left: 0;
     background:#CCCCCC;
     
-    height: 475px;
-      max-height: 1000px;
+    height: calc(230% - 14px);
 
     opacity: 100;
   }
