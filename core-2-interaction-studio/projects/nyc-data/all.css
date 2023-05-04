@@ -1431,8 +1431,6 @@ h1{
     }
   
     .info-type{
-      font-size: 12px;
-      line-height: 1;
       max-height: 150px;
   
       overflow: hidden;
@@ -1443,11 +1441,11 @@ h1{
       font-family: "indivisible", sans-serif;
       font-weight: 700;
       font-style: normal;
-      font-size: 0.8em;
+      font-size: 1.2em;
   
       padding: 1em;
   
-      line-height: 14px;
+      line-height: 1em;
     }
   
     .click-square p {
