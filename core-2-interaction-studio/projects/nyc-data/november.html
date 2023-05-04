@@ -21,7 +21,11 @@
 
       <h3>✾</h3>
       <h2>2018</h2>
-    <h1>NOVEMBER<span class="hideletters">I</span></h1>
+    <h1><a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/october">
+      ←
+      </a>NOVEMBER  <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/december">
+        →
+          </a></h1>
 
     <div class="keycontainer">
 <div class="key-numbers">
@@ -115,22 +119,6 @@
     </div>
     </main>
 
-    <footer>
-      <div class="bottom-line"></div>
-    
-     <div class="bottom-left"> 
-    <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/october">
-    ←
-    </a>
-    </div>
-    
-    <div class="bottom-right"> 
-    <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/december">
-    →
-      </a>
-    </div>
-    </footer>
-
     <script type="text/javascript">
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
   .then(response => response.json())
@@ -186,18 +174,9 @@ if (square) {
   var infoSquare = document.getElementById("15");
   var infoContent = infoSquare.getElementsByClassName("info-sq-nov")[0];
 
-
   infoSquare.onclick = function() {
-    infoContent.style.display = "block";
+    infoSquare.classList.toggle('active');
   };
-
-
-const closeButton = document.querySelector('.close');
-
-closeButton.addEventListener('click', () => {
-  infoSquare.style.display = 'none';
-});
-
     </script>
   </body>	
 </html>

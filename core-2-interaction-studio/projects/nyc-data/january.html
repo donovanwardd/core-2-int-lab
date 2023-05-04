@@ -21,7 +21,11 @@
 
       <h3>❄︎</h3>
       <h2>2019</h2>
-    <h1>JANUARY</h1>
+    <h1><a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/december">
+      ←
+      </a> JANUARY <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/february">
+        →
+          </a></h1>
 
     <div class="keycontainer">
 <div class="key-numbers">
@@ -115,22 +119,6 @@
     </div>
 
 
-<footer>
-  <div class="bottom-line"></div>
-
- <div class="bottom-left"> 
-<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/december">
-←
-</a>
-</div>
-
-<div class="bottom-right"> 
-<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/february">
-→
-  </a>
-</div>
-
-</footer>
 </main>
 
     <script type="text/javascript">
@@ -191,17 +179,17 @@ if (square) {
 
 
   infoSquare.onclick = function() {
-    infoContent.style.display = "block";
+    infoSquare.classList.toggle('active');
   };
 
 
-const closeButton = document.querySelector('.close');
+// const closeButton = document.querySelector('.close');
 
-closeButton.addEventListener('click', () => {
-  console.log('close', infoContent);
-  infoContent.setAttribute('style', "display: none;");
-  // infoContent.style.display = "none";
-});
+// closeButton.addEventListener('click', () => {
+//   console.log('close', infoContent);
+//   infoContent.setAttribute('style', "display: none;");
+//   // infoContent.style.display = "none";
+// });
 
 
     </script>

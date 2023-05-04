@@ -21,7 +21,11 @@
 
       <h3>✾</h3>
       <h2>2018</h2>
-    <h1>OCTOBER<span class="hideletters">IIII</span> </h1>
+    <h1><a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/september">
+      ←
+      </a>OCTOBER<a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/november">
+        →
+          </a></h1>
 
     <div class="keycontainer">
 <div class="key-numbers">
@@ -63,7 +67,7 @@
         <div class="square" id="06"><p>6</p></div>
         <div class="square" id="07"><p>7</p></div>
 
-        <div class="click-square" id="8"><p>8</p>
+        <div class="click-square" id="08"><p>8</p>
           <div class="info-sq-oct">
             <div class="close">
               🆇
@@ -115,22 +119,6 @@
     </div>
     </main>
 
-
-    <footer>
-      <div class="bottom-line"></div>
-    
-     <div class="bottom-left"> 
-    <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/september">
-    ←
-    </a>
-    </div>
-    
-    <div class="bottom-right"> 
-    <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/november">
-    →
-      </a>
-    </div>
-    </footer>
 
 
     <script type="text/javascript">
@@ -185,20 +173,13 @@ if (square) {
     }
   });
 
-  var infoSquare = document.getElementById("8");
+  var infoSquare = document.getElementById("08");
   var infoContent = infoSquare.getElementsByClassName("info-sq-oct")[0];
 
 
   infoSquare.onclick = function() {
-    infoContent.style.display = "block";
+    infoSquare.classList.toggle('active');
   };
-
-
-const closeButton = document.querySelector('.close');
-
-closeButton.addEventListener('click', () => {
-  infoSquare.style.display = 'none';
-});
     </script>
   </body>	
 </html>
