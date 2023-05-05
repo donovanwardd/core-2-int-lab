@@ -23,7 +23,7 @@
       <h2>2018</h2>
     <h1>   <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/november">
       ←
-      </a>DECEMBER   <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/january">
+      </a>DECEMBER <a href="https://donovanwardd.github.io/core-2-int-lab/core-2-interaction-studio/projects/nyc-data/january">
         →
           </a></h1>
 
@@ -127,17 +127,6 @@
     </div>
     </main>
 
-    <footer>
-      <div class="bottom-line"></div>
-    
-     <div class="bottom-left"> 
-    </div>
-    
-    <div class="bottom-right"> 
- 
-    </div>
-    </footer>
-
     <script type="text/javascript">
 fetch('https://data.cityofnewyork.us/resource/x3bb-kg5j.json?$query=SELECT%20%60school_dbn%60%2C%20%60date%60%2C%20%60enrolled%60%2C%20%60absent%60%2C%20%60present%60%2C%20%60released%60')
   .then(response => response.json())
@@ -191,7 +180,7 @@ if (square) {
   });
 
   var infoSquare = document.getElementById("22");
-  var infoContent = infoSquare.getElementsByClassName("info-sq-dec")[0];
+  var infoContent = infoSquare.querySelector(".info-sq-dec");
 
 
   infoSquare.onclick = function() {

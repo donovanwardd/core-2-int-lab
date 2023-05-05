@@ -544,17 +544,17 @@ h1{
 
 
 .info-sq-dec{
-    display: none;
-    position: absolute;
-  
-    width: 210%;
-    top: calc(-100% - 14px);
-    left: 0;
-    background:#CCCCCC;
-    
-    height: calc(230% - 14px);
+  display: none;
+  position: absolute;
 
-    opacity: 100;
+  width: 210%;
+  top: calc(-98% - 14px);
+  left: 0;
+  background:#CCCCCC;
+  
+  height: calc(235% - 14px);
+
+  opacity: 100;
   }
 
   .info-sq-feb{
@@ -705,6 +705,10 @@ h1{
     position: relative;
   }
 
+  .click-square-dec{
+    position: relative;
+  }
+
   .click-square:hover{
     cursor: help;
   }
@@ -730,6 +734,17 @@ h1{
     right: 0;
     cursor: pointer;
   }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1096,6 +1111,7 @@ h1{
       gap: 12px;
   
       height: 1200px;
+      width: 1000px;
   
       margin-top: 20px;
   
@@ -1328,7 +1344,7 @@ h1{
       left: 0;
       background:#CCCCCC;
       
-      height: 475px;
+      height: 395px;
       max-height: 1000px;
   
       opacity: 100;
