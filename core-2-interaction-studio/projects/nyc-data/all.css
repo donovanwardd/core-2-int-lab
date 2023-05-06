@@ -717,6 +717,10 @@ h1{
     color: white;
   }
 
+  .click-square-dec:hover p {
+    color: white;
+  }
+  
   .close{
     font-size: 12px;
     line-height: 1;
@@ -1513,6 +1517,10 @@ h1{
     }
   
     .click-square:hover p {
+      color: white;
+    }
+
+    .click-square-dec:hover p {
       color: white;
     }
   
