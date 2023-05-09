@@ -67,14 +67,46 @@
         <div class="square" id="03"><p>3</p></div>
         <div class="square" id="04"><p>4</p></div>
         <div class="square" id="05"><p>5</p></div>
-        <div class="square" id="06"><p>6</p></div>
+        <div class="click-square" id="06"><p>6</p>
+          <div class="info-sq-nov-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            November 6th, 2018
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Election Day. Chancellor’s Conference Day for staff development. Students will not be in attendance.
+          </div>
+          </div>
+        </div>
         <div class="square" id="07"><p>7</p></div>
 
         <div class="square" id="08"><p>8</p></div>
         <div class="square" id="09"><p>9</p></div>
         <div class="square" id="10"><p>10</p></div>
         <div class="square" id="11"><p>11</p></div>
-        <div class="square" id="12"><p>12</p></div>
+        <div class="click-square" id="12"><p>12</p>
+          <div class="info-sq-nov-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            November 12th, 2018
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Veterans Day (schools closed).
+          </div>
+          </div>
+        </div>
         <div class="square" id="13"><p>13</p></div>
         <div class="square" id="14"><p>14</p></div>
 
@@ -102,7 +134,23 @@
         <div class="square" id="20"><p>20</p></div>
         <div class="square" id="21"><p>21</p></div>
 
-        <div class="square" id="22"><p>22</p></div>
+        <div class="click-square" id="22"><p>22</p>
+          <div class="info-sq-nov-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            November 22nd, 2018
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Start of Thanksgiving Recess (schools closed).
+          </div>
+          </div>
+        </div>
         <div class="square" id="23"><p>23</p></div>
         <div class="square" id="24"><p>24</p></div>
         <div class="square" id="25"><p>25</p></div>
@@ -176,6 +224,27 @@ if (square) {
 
   infoSquare.onclick = function() {
     infoSquare.classList.toggle('active');
+  };
+
+  var infoSquare2 = document.getElementById("06");
+  var infoContent2 = infoSquare2.getElementsByClassName("info-sq-nov-grey")[0];
+
+  infoSquare2.onclick = function() {
+    infoSquare2.classList.toggle('active');
+  };
+
+  var infoSquare3 = document.getElementById("12");
+  var infoContent3 = infoSquare3.getElementsByClassName("info-sq-nov-grey")[0];
+
+  infoSquare3.onclick = function() {
+    infoSquare3.classList.toggle('active');
+  };
+
+  var infoSquare4 = document.getElementById("22");
+  var infoContent4 = infoSquare4.getElementsByClassName("info-sq-nov-grey")[0];
+
+  infoSquare4.onclick = function() {
+    infoSquare4.classList.toggle('active');
   };
     </script>
   </body>	

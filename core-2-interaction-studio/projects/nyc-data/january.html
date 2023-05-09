@@ -82,7 +82,23 @@
         <div class="square" id="18"><p>18</p></div>
         <div class="square" id="19"><p>19</p></div>
         <div class="square" id="20"><p>20</p></div>
-        <div class="square" id="21"><p>21</p></div>
+        <div class="click-square" id="21"><p>21</p>
+          <div class="info-sq-jan-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            January 21st, 2019
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Dr. Martin Luther King Jr. Day (schools closed).
+          </div>
+          </div>
+        </div>
 
         <div class="square" id="22"><p>22</p></div>
         <div class="square" id="23"><p>23</p></div>
@@ -183,13 +199,13 @@ if (square) {
   };
 
 
-// const closeButton = document.querySelector('.close');
+  var infoSquare2 = document.getElementById("21");
+  var infoContent2 = infoSquare2.querySelector(".info-sq-jan-grey");
 
-// closeButton.addEventListener('click', () => {
-//   console.log('close', infoContent);
-//   infoContent.setAttribute('style', "display: none;");
-//   // infoContent.style.display = "none";
-// });
+
+  infoSquare2.onclick = function() {
+  infoSquare2.classList.toggle('active');
+  };
 
 
     </script>

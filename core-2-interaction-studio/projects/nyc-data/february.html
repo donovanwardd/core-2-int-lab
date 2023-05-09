@@ -67,7 +67,23 @@
         <div class="square" id="02"><p>2</p></div>
         <div class="square" id="03"><p>3</p></div>
         <div class="square" id="04"><p>4</p></div>
-        <div class="square" id="05"><p>5</p></div>
+        <div class="click-square" id="05"><p>5</p>
+          <div class="info-sq-feb">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            February 5th, 2019
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Lunar New Year (schools closed). 
+          </div>
+          </div>
+        </div>
         <div class="square" id="06"><p>6</p></div>
         <div class="square" id="07"><p>7</p></div>
 
@@ -191,6 +207,14 @@ if (square) {
 
   infoSquare.onclick = function() {
     infoSquare.classList.toggle('active');
+  };
+
+  var infoSquare2 = document.getElementById("05");
+  var infoContent2 = infoSquare2.getElementsByClassName("info-sq-feb")[0];
+
+
+  infoSquare2.onclick = function() {
+    infoSquare2.classList.toggle('active');
   };
     </script>
   </body>	

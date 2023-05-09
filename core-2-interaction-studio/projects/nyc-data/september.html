@@ -79,7 +79,7 @@
             Attendance Percentage: 89.98%
             <br>
             <br>
-            Notable Event: First day of school year.
+            Notable Event: School Session Begins For All Students. Early dismissal for non-District 75 kindergarten students only. Partial school time for pre-kindergarten public school students.
           </div>
           </div>
         </div>
@@ -88,8 +88,40 @@
 
         <div class="square" id="08"><p>8</p></div>
         <div class="square" id="09"><p>9</p></div>
-        <div class="square" id="10"><p>10</p></div>
-        <div class="square" id="11"><p>11</p></div>
+        <div class="click-square" id="10"><p>10</p>
+          <div class="info-sq-sep-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            September 10th, 2018
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Rosh Hashanah (schools closed).
+          </div>
+          </div>
+        </div>
+        <div class="click-square" id="11"><p>11</p>
+          <div class="info-sq-sep-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            September 11th, 2018
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Rosh Hashanah (schools closed).
+          </div>
+          </div>
+        </div>
         <div class="square" id="12"><p>12</p></div>
         <div class="square" id="13"><p>13</p></div>
         <div class="square" id="14"><p>14</p></div>
@@ -98,7 +130,23 @@
         <div class="square" id="16"><p>16</p></div>
         <div class="square" id="17"><p>17</p></div>
         <div class="square" id="18"><p>18</p></div>
-        <div class="square" id="19"><p>19</p></div>
+        <div class="click-square" id="19"><p>19</p>
+          <div class="info-sq-sep-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            September 11th, 2018
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Yom Kippur (schools closed).
+          </div>
+          </div>
+        </div>
         <div class="square" id="20"><p>20</p></div>
         <div class="square" id="21"><p>21</p></div>
 
@@ -184,6 +232,33 @@ if (square) {
   infoSquare.onclick = function() {
     infoSquare.classList.toggle('active');
   };
+
+  var infoSquare2 = document.getElementById("10");
+  var infoContent2 = infoSquare2.querySelector(".info-sq-sep-grey");
+
+
+  infoSquare2.onclick = function() {
+    infoSquare2.classList.toggle('active');
+  };
+
+  var infoSquare3 = document.getElementById("11");
+  var infoContent3 = infoSquare3.querySelector(".info-sq-sep-grey");
+
+
+  infoSquare3.onclick = function() {
+    infoSquare3.classList.toggle('active');
+  };
+
+
+  var infoSquare4 = document.getElementById("19");
+  var infoContent4 = infoSquare4.querySelector(".info-sq-sep-grey");
+
+
+  infoSquare4.onclick = function() {
+    infoSquare4.classList.toggle('active');
+  };
+
+
     </script>
   </body>	
 </html>

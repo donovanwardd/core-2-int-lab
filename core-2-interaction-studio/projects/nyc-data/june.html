@@ -67,15 +67,63 @@
         <div class="square" id="01"><p>1</p></div>
         <div class="square" id="02"><p>2</p></div>
         <div class="square" id="03"><p>3</p></div>
-        <div class="square" id="04"><p>4</p></div>
+        <div class="click-square" id="04"><p>4</p>
+          <div class="info-sq-jun-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            June 4th, 2019
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Eid al-Fitr (schools closed).
+          </div>
+          </div>
+        </div>
         <div class="square" id="05"><p>5</p></div>
-        <div class="square" id="06"><p>6</p></div>
+        <div class="click-square" id="06"><p>6</p>
+          <div class="info-sq-jun-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            June 6th, 2019
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: Anniversary Day. Chancellor’s Conference Day for staff development. Students will not be in attendance.
+          </div>
+          </div>
+        </div>
         <div class="square" id="07"><p>7</p></div>
 
         <div class="square" id="08"><p>8</p></div>
         <div class="square" id="09"><p>9</p></div>
         <div class="square" id="10"><p>10</p></div>
-        <div class="square" id="11"><p>11</p></div>
+        <div class="click-square" id="11"><p>11</p>
+          <div class="info-sq-jun-grey">
+            <div class="close">
+              🆇
+            </div>
+            <div class="info-type">
+              <br>
+            June 11th, 2019
+            <br>
+            <br>
+            Attendance Percentage: N/A
+            <br>
+            <br>
+            Notable Event: June Clerical Day for students in elementary school, middle school and D75 school programs.
+          </div>
+          </div>
+        </div>
         <div class="square" id="12"><p>12</p></div>
         <div class="square" id="13"><p>13</p></div>
         <div class="square" id="14"><p>14</p></div>
@@ -176,6 +224,27 @@ if (square) {
 
   infoSquare.onclick = function() {
     infoSquare.classList.toggle('active');
+  };
+
+  var infoSquare2 = document.getElementById("04");
+  var infoContent2 = infoSquare2.getElementsByClassName("info-sq-jun-grey")[0];
+
+  infoSquare2.onclick = function() {
+    infoSquare2.classList.toggle('active');
+  };
+
+  var infoSquare3 = document.getElementById("06");
+  var infoContent3 = infoSquare2.getElementsByClassName("info-sq-jun-grey")[0];
+
+  infoSquare3.onclick = function() {
+    infoSquare3.classList.toggle('active');
+  };
+
+  var infoSquare4 = document.getElementById("11");
+  var infoContent4 = infoSquare2.getElementsByClassName("info-sq-jun-grey")[0];
+
+  infoSquare4.onclick = function() {
+    infoSquare4.classList.toggle('active');
   };
 
     </script>
